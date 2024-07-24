@@ -729,6 +729,56 @@
 			"description": "No ápice da sua manufatura, você agora é capaz de construir seu próprio Golem de metal, que mal pode esperar para ser pilotado por seu engenheiro favorito."
 		}
 		]
+	},
+	{
+		"name": "Deslocador das Sombras",
+		"caminho": "Caminho da Sabedoria",
+		"imagem": "deslocador_sombras.png",
+		"id_classe": "deslocador_sombras",
+		"exclusividade": [ "Har’oloth" ],
+		"description": "O Deslocador das Sombras é uma classe exclusiva dos astutos e furtivos Drows. Mestres da arte da ilusão, esses conjuradores manipulam a magia Velkyn para se mover entre sombras e enganar seus inimigos. Capazes de se desvanecer na escuridão e surgir em locais inesperados, os Deslocadores das Sombras confundem e desorientam seus adversários, tornando-se verdadeiras ameaças invisíveis. Utilizando ilusões complexas, eles criam duplicatas e semeiam o caos no campo de batalha. Sua presença é sentida apenas pelo rastro de incerteza e medo que deixam para trás.",
+		"habilidades": [
+		{
+			"name": "Recuperação Sombria",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seu domínio sobre o V elkyn é tal que você recupera uma quantidade de mana equivalente ao seu Magic Lore dividido por 20 para cada criatura que você derrubar. Além disso, seu Magic Lore agora é usado para medir sua furtividade."
+		},
+		{
+			"name": "Lâmina das Sombras",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "20 Mana + 10 Stamina",
+			"cooldown": "90s",
+			"description": "Conjura uma adaga de pura sombra que, ao atingir um inimigo enquanto você estiver invisível, causa dano significativo e um efeito debilitante. A lâmina se desfaz após o primeiro acerto. O ataque surpresa causa um bônus de dano baseado no seu nível de furtividade e deixa o inimigo silenciado, impossibilitando-o de conjurar magia"
+		},
+		{
+			"name": "Mestre das Trevas",
+			"level": 8,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você se torna um verdadeiro Mestre das Trevas, recebendo um bônus significativo para todas as suas magias Velkyn. Esse bônus aumenta a eficácia das magias Velkyn."
+		},
+		{
+			"name": "Manipular sombras",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Manipula as sombras ao seu redor para se teleportar ou teleportar uma criatura para uma área dentro de seu campo de visão que esteja nas sombras. A precisão e distância do teleporte são baseadas no seu nível de Magic Lore, permitindo reposicionar aliados ou inimigos estrategicamente, garantindo vantagem em combate ou escapando de situações perigosas."
+		},
+		{
+			"name": "Parar o Tempo",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "40 Mana + 20 Stamina",
+			"cooldown": "600s",
+			"description": "Utiliza o poder das trevas para parar o tempo ao seu redor, afetando todos, inclusive aliados, por um período de segundos igual ao seu nível de Magic Lore dividido por 5. Durante esse intervalo, você pode se mover e agir livremente enquanto os outros estão congelados no tempo. Essa habilidade pode mudar drasticamente o curso da batalha, permitindo que você reposicione, ataque ou fuja sem interferências."
+		}
+		]
 	}
     ]
 }
