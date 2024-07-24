@@ -1,0 +1,703 @@
+{
+    "classes_armas": [
+	{
+		"name": "Arqueiro",
+		"caminho": "Caminho das Armas",
+		"imagem": "arqueiro.png",
+		"id_classe": "arqueiro",
+		"exclusividade": [ "" ],
+		"description": "Ágeis, habilidoses e sempre munidos de seus fiéis companheiros, arcos ou bestas, carregam consigo um arsenal de flechas capazes de perfurar seus adversários. Seja com treinamento militar ou de companhias mercenárias, desenvolvem uma pontaria inigualável. Optam por atacar seus adversários à distância evitando o conflito direto e, assim, despertando a ira daqueles que entram em conflito com esses exímios atiradores.",
+		"habilidades": [
+		{
+			"name": "Tiro Carregado",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "120s",
+			"description": "Você perde alguns segundos mirando, mas acerta o próximo tiro com dano extra."
+		},
+		{
+			"name": "Tiro Poderoso",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "60s",
+			"description": "Você dispara uma flecha em linha reta que causa dano em todos no caminho dela."
+		},
+		{
+			"name": "Salto Mortal",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "120s",
+			"description": "Você salta para trás e tenta dar uma flechada em seu alvo."
+		},
+		{
+			"name": "Tiro em Movimento",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "120s",
+			"description": "Você consegue correr e atirar ao mesmo tempo por um alguns segundos."
+		},
+		{
+			"name": "Disparo Incapacitante",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "180s",
+			"description": "Se você acertar o próximo disparo, o alvo não poderá se mover por alguns segundos."
+		},
+		{
+			"name": "Penetrar Armadura",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Seu próximo disparo terá uma precisão absurda."
+		}
+		]
+	},
+	{
+		"name": "Bárbaro",
+		"caminho": "Caminho das Armas",
+		"imagem": "barbaro.png",
+		"id_classe": "barbaro",
+		"exclusividade": [ "" ],
+		"description": "Guerreiros que são tomados por uma ira incessante em meio ao combate, valendo-se de armas corpo-a-corpo e desprovidos de armaduras. São capazes de despertar a fúria interior, tornando-se ainda mais agressivos e mortais.",
+		"habilidades": [
+		{
+			"name": "Fúria de Almak",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você fica em fúria mais facilmente que outros Thuriões."
+		},
+		{
+			"name": "Pele de Rocha",
+			"level": 6,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Quando em fúria o Berserker ignora a dor de golpes recebidos ganhando um bônus na resistência física. 30 de AR sem fúria e 60 de AR quando ativada a fúria."
+		},
+		{
+			"name": "Fúria Primordial",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "120s",
+			"description": "Você ganha bônus no dano em desvantagem numérica."
+		},
+		{
+			"name": "Ignorar Defesas",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "90s",
+			"description": "Você encontra um ponto fraco na defesa do seu adversário. Seu próximo golpe será mais efetivo."
+		},
+		{
+			"name": "Recuperação Aligera",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "300s",
+			"description": "Você consegue se recuperar rapidamente quando está em fúria."
+		},
+		{
+			"name": "Fúria da Derrota",
+			"level": 8,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Acerte um crítico automático quando o adversário desmaiar você."
+		},
+		{
+			"name": "Vontade Indomável",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "240s",
+			"description": "Você fica imune a críticos, paralisia e diversas magias."
+		},
+		{
+			"name": "Jurado de Morte",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "300s",
+			"description": "Caso sofra um golpe fatal lutando contra o inimigo marcado, você utilizará suas últimas forças para cumprir sua palavra. Se o inimigo for derrubado, você se revigora."
+		},
+		{
+			"name": "Fúria Imortal",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você consegue se manter vivo apenas com a força do seu ódio. Quando estiver em fúria e receber um golpe fatal, você permanecerá em pé lutando por alguns segundos."
+		},
+		{
+			"name": "Sangue Grosso",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "O sangue custa a se esvair de seu corpo, fazendo-o durar mais durante uma batalha e diminuirá o limiar da fúria, fazendo-o entrar em fúria com mais pontos de vida."
+		},
+		{
+			"name": "Irrefreável",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "300s",
+			"description": "Você ganha 60 pontos de vida extras, para passar por cima de tudo sem nada para impedi-lo."
+		},
+		{
+			"name": "Aterrorizar",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "300s",
+			"description": "Quando em fúria você causa medo nos seus adversários, reduzindo a capacidade de defender deles."
+		},
+		{
+			"name": "Violência Implacável",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "60s",
+			"description": "Quando em fúria você causa danos massivos em todos ao redor, mas parte volta para voce."
+		},
+		{
+			"name": "Fúria Mortal",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "300s",
+			"description": "Quanto mais próximo da morte, maiores serão seus danos."
+		},
+		{
+			"name": "Ferocidade Ensanguentada",
+			"level":12,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "240s",
+			"description": "Sempre que você for atingido enquanto estiver em fúria, dará um ataque de oportunidade."
+		},
+		{
+			"name": "Ataques Enlouquecidos",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "240s",
+			"description": "Você acerta seus ataques, mas seus adversários tambem."
+		},
+		{
+			"name": "Golpe de Misericórdia",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você não perdoa os inimigos quando eles estão gravemente feridos."
+		}
+		]
+		
+	},
+	{
+		"name": "Caçador",
+		"caminho": "Caminho das Armas",
+		"imagem": "cacador.png",
+		"id_classe": "cacador",
+		"exclusividade": [ "" ],
+		"description": "Os Caçadores são vigilantes incansáveis da natureza e mestres da perseguição, combinando habilidades de rastreamento excepcionais com uma precisão letal em combate à distância. Treinados para se adaptarem a qualquer ambiente, eles são especialistas em sobreviver nas condições mais adversas, utilizando a paisagem a seu favor. Armados com arcos, bestas e um arsenal de armadilhas, os Caçadores patrulham suas terras com olhos atentos, protegendo seu território de ameaças e invasores.",
+		"habilidades": [
+		{
+			"name": "Camuflagem",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Você consegue se esgueirar fora de cidades utilizando o survival. Caso tenha um pet, ele se esgueirará junto, se ele acertar o próximo ataque, será um crítico."
+		},
+		{
+			"name": "Caçador Experiente",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "5 Stamina",
+			"cooldown": "5s",
+			"description": "Você é um especialista em sobrevivência. Sabe como fazer redes jogáveis usando cordas e instalar armadilhas de caça. Além disso, é melhor em rastrear e usar sua perícia Survival para proteger um grupo que esteja liderando dos efeitos do clima."
+		},
+		{
+			"name": "Mestre das Feras",
+			"level": 8,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você possui a habilidade de despertar a verdadeira natureza do seu animal fiel. Esta habilidade altera a forma natural do animal (força, destreza e vida) e também desperta um instinto selvagem que aumenta o dano crítico do animal de acordo com o tipo de fera."
+		},
+		{
+			"name": "Espreita Selvagem",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Adquire +1 slot de animais domesticados e permite ter +1 animal fidelizado. Você e seu pet dobram a quantidade de passos nas sombras."
+		},
+		{
+			"name": "Caçador Implacável",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua vida na natureza fortaleceu sua saúde, tornando-o mais resistente ao clima, e também te conferiu habilidades de rastreamento e caça. Você ganha bônus em fortitude e pontos de vida. Além disso, você pode rastrear e caçar implacavelmente sua presa (somente mob), ignorando suas defesas até eliminá-la."
+		}
+		]
+	},
+	{
+		"name": "Combatente",
+		"caminho": "Caminho das Armas",
+		"imagem": "combatente.png",
+		"id_classe": "combatente",
+		"exclusividade": [ "" ],
+		"description": "São combatentes de grande valor pois possuem um vasto conhecimento em armamentos, além de grandes estratégias no campo de batalha. São hábeis com armas e escudos e ótimos no combate corpo-a-corpo, construiram sua fama pelas constantes disputa no campo de batalha demonstrando uma habilidades inigualáveis.",
+		"habilidades": [
+		{
+			"name": "Tática Ofensiva",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "120s",
+			"description": "Você consegue acertar mais golpes por um tempo."
+		},
+		{
+			"name": "Sangue por Sangue",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "90s",
+			"description": "Você acertará seu próximo ataque mas também será atingido."
+		},
+		{
+			"name": "Ataque Infalível",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "120s",
+			"description": "Quando tudo indica que você vai errar um ataque, você acerta, porém causando menos dano."
+		},
+		{
+			"name": "Golpes Amplos",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "180s",
+			"description": "Você golpeia com extrema violência causando dano a todos ao seu redor."
+		},
+		{
+			"name": "Trespassar",
+			"level": 8,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Se você derrubar um oponente, consegue atacar outro oponente que estiver ao alcance rapidamente."
+		},
+		{
+			"name": "Ataque Total",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Você acerta alguns ataques seguidos mas também será um alvo fácil."
+		},
+		{
+			"name": "Maestria no Combate",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você dominou a arte do combate e sabe como atingir com maior eficácia seus golpes, assim, aumentando suas chances de causar acertos críticos."
+		},
+		{
+			"name": "Ataque Devastador",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "35 Stamina",
+			"cooldown": "180s",
+			"description": "Você reune todas as suas forças para realizar um ataque brutal."
+		},
+		{
+			"name": "Sequência Destruidora",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "300s",
+			"description": "A cada ataque consecutivo que você acertar no inimigo, maior será o estrago que você causará."
+		},
+		{
+			"name": "Ataque Giratório",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "50 Stamina",
+			"cooldown": "200s",
+			"description": "Você gira sua arma, acertando todos os oponentes ao redor."
+		}
+		]
+	},
+	{
+		"name": "Defensor",
+		"caminho": "Caminho das Armas",
+		"imagem": "defensor.png",
+		"id_classe": "defensor",
+		"exclusividade": [ "" ],
+		"description": "Mestres na arte da defesa. Seu primeiro brinquedo quando ainda criança foi um escudo de madeira que logo tornou-se seu melhor amigo. Com ele lutou contra as maiores dificuldades e sobreviveu até se tornar uma verdadeira fortaleza. O defensor é um guerreiro focado no uso competente de armaduras e escudos, refinando a técnica de defesa e a superação de adversários por meio da tenacidade e do espírito indomável, capaz de suportar grandes quantidades de dano e efeitos negativos.",
+		"habilidades": [
+		{
+			"name": "Provocar",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "60s",
+			"description": "Você consegue deixar seus inimigos com tanta raiva que eles param o que estão fazendo só para te atacar. O Defensor passa a possuir o comando .postura para definir as posturas para as próximas habilidades."
+		},
+		{
+			"name": "Manobra de Defesa",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "60s",
+			"description": "Caso sua postura seja ofensiva, defenderá o próximo golpe. Senão, receberá um bônus na defesa de acordo com seu parry passivamente."
+		},
+		{
+			"name": "Manobra Desafiadora",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "60s",
+			"description": "Caso sua postura seja ofensiva, golpeará com o escudo, atordoando o alvo e aproveitando a chance para tentar acertar um golpe. Senão, lutará melhor contra vários oponentes."
+		},
+		{
+			"name": "Manobra da Resiliência",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "240s",
+			"description": "Na postura ofensiva, fica imune a stuns e críticos por alguns segundos baseado no seu Parry. Na defensiva, recupera uma quantia de hp baseado no seu Parry por alguns segundos."
+		},
+		{
+			"name": "Manobra da Invencibilidade",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Na postura ofensiva, contra-ataca por alguns segundos baseado no seu Parry. Na defensiva, você se concentra apenas em se defender, sem atacar."
+		}
+		]
+	},
+	{
+		"name": "Líder",
+		"caminho": "Caminho das Armas",
+		"imagem": "lider.png",
+		"id_classe": "lider",
+		"exclusividade": [ "" ],
+		"description": "Lutadores que se diferenciam dos demais por sua disciplina, resiliência e código de honra e conduta. Especialistas em inspirar, fortalecer e elevar o moral daqueles que lutam ao seu lado. São indispensáveis na formação de grupos e tropas para enfrentar grandes perigos.",
+		"habilidades": [
+		{
+			"name": "Poder da Aliança",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Quanto mais aliados próximos, melhor você luta."
+		},
+		{
+			"name": "Incitar Heroísmo",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Suas ordens no combate fazem com que seus aliados sintam-se mais preparados, conferindo-lhes bônus no dano."
+		},
+		{
+			"name": "Formar Barreira",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "180s",
+			"description": "Caso você e seus aliados estejam lado a lado formando uma barreira, ganharão uma defesa extra."
+		},
+		{
+			"name": "Inspirar Defesas",
+			"level": 8,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seus aliados conseguem bloquear com mais frequência quando estão perto de você."
+		},
+		{
+			"name": "Reforçar Defesas",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Suas ordens ajudam seus aliados a esquivarem de ataques."
+		},
+		{
+			"name": "Renovar Tropas",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "180s",
+			"description": "Seus aliados que ainda não estiverem gravemente feridos sentem-se renovados no combate."
+		},
+		{
+			"name": "Até a Morte",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Seus aliados gravemente feridos recuperam-se para continuar o combate."
+		},
+		{
+			"name": "Comando de Cerco",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Seus aliados conseguem se aproveitar da vantagem de possuir um inimigo cercado."
+		},
+		{
+			"name": "Reviravolta",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "25 Stamina",
+			"cooldown": "180s",
+			"description": "Se voce estiver sendo atacado por um número de inimigos maior que metade dos seus aliados suas ordens culminarão em uma reviravolta no combate."
+		},
+		{
+			"name": "Glória da Batalha",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Você guia um dos seus aliados para a glória. Ele acertará um crítico."
+		},
+		{
+			"name": "Inspirar Vontade",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "180s",
+			"description": "Seus aliados são inspirados a superar diversos efeitos debilitantes e incapacitantes."
+		},
+		{
+			"name": "Linha de Sangue",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "180s",
+			"description": "Seus aliados próximo executam a manobra Ataque Giratório, atingindo inimigos adjacentes."
+		},
+		{
+			"name": "Investida dos Fortes",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "50 Stamina",
+			"cooldown": "300s",
+			"description": "Todos seus aliados acertam um ataque extra."
+		},
+		{
+			"name": "Comando de Vitória",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "50 Stamina",
+			"cooldown": "300s",
+			"description": "Todos seus aliados podem usar suas habilidades novamente."
+		}
+		]
+	},
+	{
+		"name": "Aklat’tur",
+		"caminho": "Caminho das Armas",
+		"imagem": "aklattur.png",
+		"id_classe": "aklattur",
+		"exclusividade": [ "Gulthrak" ],
+		"description": "Os Aklat’tur, nascidos e moldados pelas implacáveis areias de Adar Kor Doom, são os predadores do deserto. Conhecidos por suas emboscadas mortais, nutrem o deserto com o sangue derramado que, em troca, concede-lhes força e vigor renovados.",
+		"habilidades": [
+		{
+			"name": "Nazg khalug",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Você escolhe uma criatura que possa ver e ganhará vantagem contra ela baseado na sua perícia Survival. Além disso, quando sua pilha de heroísmo acabar, você causará dano dobrado."
+		},
+		{
+			"name": "Burz",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Quando em fúria você causa danos massivos em todos ao redor, mas parte volta para voce. Quanto mais ferido, mais dano você causa."
+		},
+		{
+			"name": "Ghâshburz",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Você ganha bonus em dano e acerto em desvantagem numérica."
+		},
+		{
+			"name": "Shar Krith",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": ""
+		},
+		{
+			"name": "Nazg Gûl",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Quanto mais próximo da morte, maiores serão seus danos. Você também recebe mais HP."
+		}
+		]
+	},
+	{
+		"name": "Monge",
+		"caminho": "Caminho das Armas",
+		"imagem": "monge.png",
+		"id_classe": "monge",
+		"exclusividade": [ "Povos do Leste" ],
+		"description": "O monge é um mestre das artes marciais que utiliza seu corpo como arma. Ele domina golpes desarmados com agilidade e poder excepcionais. O Monge usará para o combate a skill Wrestling independente se lutar com as mãos ou com bastão. Para isso, poderá escolher nas perícias iniciais tanto 1Hand Combat, quanto 2Hands Combat, e então ela será usada como se Wrestling fosse.",
+		"habilidades": [
+		{
+			"name": "Artista Marcial",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "O monge é capaz de esquivar mais e melhor baseado na sua perícia tática (tactics) quando luta com cajados ou as mãos nuas. Além disso, seus golpes são mais fortes."
+		},
+		{
+			"name": "Palma Explosiva",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Você concentra sua energia para liberar um golpe concentrado e bastante poderoso."
+		},
+		{
+			"name": "Desviar Disparos",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Você consegue com a agilidade da sua mão, desviar-se de qualquer disparo à distância. A habilidade dura o valor da perícia Tactics em segundos."
+		},
+		{
+			"name": "Golpe Afiado",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Você estica e enrijece os dedos tornando-os quase uma navalha, caso acerte seu próximo golpe será num ponto vital causando sangramento no oponente e o dano será baseado na sua perícia Tactics."
+		},
+		{
+			"name": "Perseverança",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Sua determinação o impede de cair em batalha, você rapidamente recupera sua pilha de heroísmo."
+		},
+		{
+			"name": "Golpe de Seis Polegadas",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Você aproxima a mão bem perto do diafragma do oponente, aplicando um golpe tão forte que é capaz de empurrá-lo. Caso o alvo acerte um obstáculo, o dano é aumentado. Além disso, o alvo empurrado causará dano em todos que estiverem em seu caminho."
+		},
+		{
+			"name": "Corpo de Diamante",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua disciplina e experiência em meditar o tornaram um templo. Você usa seu tactics para resistir impacto de golpes e possui resistência ímpar contra intempéries climáticas."
+		},
+		{
+			"name": "Punho de Ferro",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "300s",
+			"description": "Você bate tão forte que é capaz de nocautear o oponente, literalmente colocando-o para dormir."
+		},
+		{
+			"name": "Desarmar Oponente",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "120s",
+			"description": "Você consegue desarmar seu oponente que fica impossibilitado de reequipar qualquer arma por um tempo baseado em seu tactics. Se o oponente estiver desarmado ou for um NPC, ele terá redução no dano."
+		}
+		]
+	},
+	{
+		"name": "Samurai",
+		"caminho": "Caminho das Armas",
+		"imagem": "samurai.png",
+		"id_classe": "samurai",
+		"exclusividade": [ "Povos do Leste" ],
+		"description": "O espadachim é um mestre guerreiro, dedicado à perfeição de sua postura de combate. Seu domínio abrange o combate sem escudos ou armaduras, exceto armaduras de madeira. Exibindo agilidade excepcional, o espadachim está sempre pronto para desferir golpes devastadores, revelando uma destreza letal em suas habilidades marciais.",
+		"habilidades": [
+		{
+			"name": "Tabibito no Michi",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "60s",
+			"description": "Passivamente, você recebe um bônus para defender sem escudo caso esteja sem armadura ou usando apenas armaduras de samurai. Ao ativar, você garante uma defesa no próximo ataque."
+		},
+		{
+			"name": "Ryu no Ikari",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "O espadachim avança como o vento, desferindo golpes letais em linha reta, cortando seus inimigos no caminho."
+		},
+		{
+			"name": "Kanpeki na Jikkō",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Pronto para a sua execução, você prepara sua postura para acertar o seu próximo golpe. Caso ele acerte, você desferirá um golpe crítico."
+		},
+		{
+			"name": "Kaze no Ichigeki",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Com destreza letal, você antecipa a batalha, criando uma abertura para lançar dois ataques consecutivos"
+		},
+		{
+			"name": "Ken no Tatsujin",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Um mestre na arte da defesa, cada golpe contra você desencadeia uma resposta imediata. Sempre que você defender um ataque, você contra atacará."
+		}
+		]
+	}
+    ]
+}

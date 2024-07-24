@@ -1,0 +1,508 @@
+{
+    "caminhos": [
+	{
+		"name": "Caminho das Armas",
+		"id_povo": "path_armas",
+		"description": "Aqueles que trilham o Caminho das Armas demonstram grande aptidão no manuseio das mais variadas armas, seja brandindo um machado, empunhando uma espada longa, usando um arco ou desviando ataques com um escudo, além de um vasto conhecimento e habilidade em combate. São os mercenários, cavaleiros, guardas, infantarias de elite e até mesmo caçadores que povoam o mundo de Tybar.",
+		"imagem": "path_armas.png",
+		"pilha_heroismo": 125,
+		"fortitude": 20,
+		"reflexo": 10,
+		"vontade": 10,
+		"pontos_pericias": 20,
+		"pericias_1": [
+			"One Handed",
+			"Two Handed",
+			"Dual Wield",
+			"Ranged",
+			"Tactics",
+			"Parry"
+		],
+		"pericias_2": [
+			"Awareness",
+			"Medicine",
+			"Survival"
+		],
+		"pericias_3": [
+			"Gathering",
+			"Sneak"
+		],
+		"pericias_4": [
+			"Domestic Work",
+			"Handle Animal",
+			"Magic Lore",
+			"Mechanics",
+			"Metal Working",
+			"Pickpocketing",
+			"Wood Working"
+		],
+		"habilidades": [
+		{
+			"name": "Arqueólogo",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você é capaz de decifrar escritos antigos"
+		},
+		{
+			"name": "Ataques Oportunistas",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seus ataques machucam mais por encontrar brechas do inimigo do que pela força. Usa INT no lugar de FOR para calcular dano da arma."
+		},
+		{
+			"name": "Ataques Precisos",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seus ataques machucam mais pela precisão do que pela força. Usa DEX no lugar de FOR para calcular dano da arma."
+		},
+		{
+			"name": "Estilo Mão Livre",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Ataques com armas de uma mão são mais efetivos com a outra mão livre."
+		},
+		{
+			"name": "Inimigo Predileto",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Escolha um tipo de mob e tenha dano dobrado contra eles."
+		},
+		{
+			"name": "Postura Defensiva",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua postura favorece a defesa, mas prejudica o ataque."
+		},
+		{
+			"name": "Postura Ofensicva",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua postura favorece o ataque, mas prejudica a defesa."
+		},
+		{
+			"name": "Recuperar Flechas",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua técnica aumenta a chance das flechas e virotes disparados não quebrarem."
+		},
+		{
+			"name": "Talento Musical",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você tem facilidade natural de tocar musicas, podendo ler inclusive partituras magicas."
+		},
+		{
+			"name": "Brigador de Taverna",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Suas noites lutando em tavernas seja por bebidas, mulheres ou auto defesa, o ensinaram a bater mais forte com mãos nuas."
+		},
+		{
+			"name": "Conservar Equipamentos",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você sabe como cuidar bem de seus equipamentos. Equipamentos duram até cinco vezes mais."
+		},
+		{
+			"name": "Desmontar",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Com um golpe rapido, voce derruba seu oponente de sua montaria, que fica impossibilitado de montar por um tempo e ainda pode se machucar na queda."
+		},
+		{
+			"name": "Recuperação",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você se recupera rapidamente de desmaios, acordando na metade do tempo e mais preparado para combater."
+		}
+		]
+	},
+	{
+		"name": "Caminho da Sabedoria",
+		"id_povo": "path_sabedoria",
+		"description": "O Caminho da Sabedoria é o caminho dos eruditos, atrai os estudiosos que buscam entender os mistérios e manipular o poder da magia, não importando a sua forma. Com ela é possível invocar criaturas, encantar armas com o poder dos elementos e até mesmo drenar a força vital de uma pessoa.",
+		"imagem": "path_sabedoria.png",
+		"pilha_heroismo": 75,
+		"fortitude": 10,
+		"reflexo": 10,
+		"vontade": 20,
+		"pontos_pericias": 20,
+		"pericias_1": [
+			"Alchemy",
+			"Magery",
+			"Magic Lore",
+			"Medicine"
+		],
+		"pericias_2": [
+			"Awareness",
+			"Survival"
+		],
+		"pericias_3": [
+			"Gathering",
+			"One Handed",
+			"Sneak",
+			"Dual Wield"
+		],
+		"pericias_4": [
+			"Domestic Work",
+			"Handle Animal",
+			"Mechanics",
+			"Two Handed",
+			"Metal Working",
+			"Parry",
+			"Pickpocketing",
+			"Ranged",
+			"Tactics",
+			"Wood Working"
+		],
+		"habilidades": [
+		{
+			"name": "Arqueólogo",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você é capaz de decifrar escritos antigos"
+		},
+		{
+			"name": "Ataques Oportunistas",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seus ataques machucam mais por encontrar brechas do inimigo do que pela força. Usa INT no lugar de FOR para calcular dano da arma."
+		},
+		{
+			"name": "Ataques Precisos",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seus ataques machucam mais pela precisão do que pela força. Usa DEX no lugar de FOR para calcular dano da arma."
+		},
+		{
+			"name": "Conservar Bandagens",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você aplica bandagens com tanta habilidade que quase sempre elas podem ser reutilizadas."
+		},
+		{
+			"name": "Estilo Mão Livre",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Ataques com armas de uma mão são mais efetivos com a outra mão livre."
+		},
+		{
+			"name": "Herbalista Experiente",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Ao colher um reagente planta, voce tem 30% de chance de pegar dois."
+		},
+		{
+			"name": "Mente Tranquila",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "A recuperacao de sua mana é um pouco maior."
+		},
+		{
+			"name": "Postura Defensiva",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua postura favorece a defesa, mas prejudica o ataque."
+		},
+		{
+			"name": "Postura Ofensiva",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua postura favorece o ataque, mas prejudica a defesa."
+		},
+		{
+			"name": "Recuperar Flechas",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua técnica aumenta a chance das flechas e virotes disparados não quebrarem."
+		},
+		{
+			"name": "Talento Musical",
+			"level": 0,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você tem facilidade natural de tocar musicas, podendo ler inclusive partituras magicas."
+		},
+		{
+			"name": "Escrever Pergaminhos",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você sabe escrever pergaminhos das suas magias."
+		},
+		{
+			"name": "Conservar Equipamentos",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você sabe como cuidar bem de seus equipamentos. Equipamentos duram até cinco vezes mais."
+		},
+		{
+			"name": "Magia Silenciosa",
+			"level": 2,
+			"tipo": "Ativa",
+			"custo": "10 Mana",
+			"cooldown": "120 s",
+			"description": "Você conjura a proxima magia sem fazer gestos ou falar."
+		},
+		{
+			"name": "Mago Precavido",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Se você falhar em uma magia, voce perde apenas metade do gasto de mana dela."
+		},
+		{
+			"name": "Manter Magias",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Suas magias gastam menos mana ao serem mantidas."
+		},
+		{
+			"name": "Proteção Elemental",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "10 s",
+			"description": "Você ganha certa resistência a um elemento especifico escolhido por você."
+		},
+		{
+			"name": "Recuperação",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você se recupera rapidamente de desmaios, acordando na metade do tempo e mais preparado para combater."
+		},
+		{
+			"name": "Táticas Arcanas",
+			"level": 2,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Usa o excesso de mana guardado para dar mais dano."
+		}
+		]
+	},
+	{
+		"name": "Caminho do Subterfúgio",
+		"id_povo": "path_subterfugio",
+		"description": "Os que trilham o Caminho do Subterfúgio contam com sua astúcia, furtividade e as vulnerabilidades de seus adversários para obter vantagem em qualquer situação. Alguns preferem usar os seus talentos para a trapaça e ganho pessoal, outros usam a sua astúcia e versatilidade para obter tesouros e são peça fundamental para qualquer grupo de aventureiros.",
+		"imagem": "path_subterfugio.png",
+		"pilha_heroismo": 100,
+		"fortitude": 10,
+		"reflexo": 20,
+		"vontade": 10,
+		"pontos_pericias": 20,
+		"pericias_1": [
+			"Awareness",
+			"Mechanics",
+			"Pickpocketing",
+			"Sneak"
+		],
+		"pericias_2": [
+			"Magic Lore",
+			"One Handed",
+			"Ranged",
+			"Survival",
+			"Tactics",
+			"Dual Wield"
+		],
+		"pericias_3": [
+			"Alchemy",
+			"Gathering",
+			"Medicine",
+			"Two Handed",
+			"Parry"
+		],
+		"pericias_4": [
+			"Domestic Work",
+			"Handle Animal",
+			"Metal Working",
+			"Wood Working"
+		],
+		"habilidades": [
+			{
+				"name": "Arqueólogo",
+				"level": 0,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Você é capaz de decifrar escritos antigos"
+			},
+			{
+				"name": "Ataques Oportunistas",
+				"level": 0,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Seus ataques machucam mais por encontrar brechas do inimigo do que pela força. Usa INT no lugar de FOR para calcular dano da arma."
+			},
+			{
+				"name": "Ataques Precisos",
+				"level": 0,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Seus ataques machucam mais pela precisão do que pela força. Usa DEX no lugar de FOR para calcular dano da arma."
+			},
+			{
+				"name": "Flanquear",
+				"level": 0,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Seus ataques pelos flancos ou por trás causam mais dano."
+			},
+			{
+				"name": "Estilo Mão Livre",
+				"level": 0,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Ataques com armas de uma mão são mais efetivos com a outra mão livre."
+			},
+			{
+				"name": "Inimigo Predileto",
+				"level": 0,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Escolha um tipo de criatura e tenha dano dobrado contra eles."
+			},
+			{
+				"name": "Linguagem dos Sinais",
+				"level": 0,
+				"tipo": "Ativa",
+				"custo": "10 Stamina",
+				"cooldown": "10 s",
+				"description": "Voce sabe utilizar a linguagem secreta dos sinais dos ladrões. Certos NPCs irão lhe dar informações privilegiadas graças a isso."
+			},
+			{
+				"name": "Postura Defensiva",
+				"level": 0,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Sua postura favorece a defesa, mas prejudica o ataque."
+			},
+			{
+				"name": "Postura Ofensiva",
+				"level": 0,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Sua postura favorece o ataque, mas prejudica a defesa."
+			},
+			{
+				"name": "Recuperar Flechas",
+				"level": 0,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Sua técnica aumenta a chance das flechas e virotes disparados não quebrarem."
+			},
+			{
+				"name": "Talento Musical",
+				"level": 0,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Você tem facilidade natural de tocar musicas, podendo ler inclusive partituras magicas."
+			},
+			{
+				"name": "Movimento Livre",
+				"level": 2,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Seu treinamento te ensinou como evitar diversas manobras e efeitos que normalmente impediriam seu movimento."
+			},
+			{
+				"name": "Conservar Equipamentos",
+				"level": 2,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Você sabe como cuidar bem de seus equipamentos. Equipamentos duram até cinco vezes mais."
+			},
+			{
+				"name": "Prestidigitador",
+				"level": 2,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Sabe trapacear em alguns jogos de azar sem ser percebido, amarra melhor as pessoas com cordas e consegue ocultar um objeto em revistas."
+			},
+			{
+				"name": "Rastros Fantasmas",
+				"level": 2,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Seus rastros não são fáceis de serem seguidos. É praticamente impossível te localizar com a Perícia Survival."
+			},
+			{
+				"name": "Recuperação",
+				"level": 2,
+				"tipo": "Passiva",
+				"custo": "-",
+				"cooldown": "-",
+				"description": "Você se recupera rapidamente de desmaios, acordando na metade do tempo e mais preparado para combater."
+			}
+		]
+	}
+    ]
+}

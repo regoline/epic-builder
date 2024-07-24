@@ -1,0 +1,536 @@
+{
+    "classes_exclusivas": [
+	{
+		"name": "Aklat’tur",
+		"caminho": "Caminho das Armas",
+		"imagem": "aklattur.png",
+		"id_classe": "aklattur",
+		"exclusividade": [ "Gulthrak" ],
+		"description": "Os Aklat’tur, nascidos e moldados pelas implacáveis areias de Adar Kor Doom, são os predadores do deserto. Conhecidos por suas emboscadas mortais, nutrem o deserto com o sangue derramado que, em troca, concede-lhes força e vigor renovados.",
+		"habilidades": [
+		{
+			"name": "Nazg khalug",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Você escolhe uma criatura que possa ver e ganhará vantagem contra ela baseado na sua perícia Survival. Além disso, quando sua pilha de heroísmo acabar, você causará dano dobrado."
+		},
+		{
+			"name": "Burz",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Quando em fúria você causa danos massivos em todos ao redor, mas parte volta para voce. Quanto mais ferido, mais dano você causa."
+		},
+		{
+			"name": "Ghâshburz",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Você ganha bonus em dano e acerto em desvantagem numérica."
+		},
+		{
+			"name": "Shar Krith",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": ""
+		},
+		{
+			"name": "Nazg Gûl",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Quanto mais próximo da morte, maiores serão seus danos. Você também recebe mais HP."
+		}
+		]
+	},
+	{
+		"name": "Monge",
+		"caminho": "Caminho das Armas",
+		"imagem": "monge.png",
+		"id_classe": "monge",
+		"exclusividade": [ "Povos do Leste" ],
+		"description": "O monge é um mestre das artes marciais que utiliza seu corpo como arma. Ele domina golpes desarmados com agilidade e poder excepcionais. O Monge usará para o combate a skill Wrestling independente se lutar com as mãos ou com bastão. Para isso, poderá escolher nas perícias iniciais tanto 1Hand Combat, quanto 2Hands Combat, e então ela será usada como se Wrestling fosse.",
+		"habilidades": [
+		{
+			"name": "Artista Marcial",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "O monge é capaz de esquivar mais e melhor baseado na sua perícia tática (tactics) quando luta com cajados ou as mãos nuas. Além disso, seus golpes são mais fortes."
+		},
+		{
+			"name": "Palma Explosiva",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Você concentra sua energia para liberar um golpe concentrado e bastante poderoso."
+		},
+		{
+			"name": "Desviar Disparos",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Você consegue com a agilidade da sua mão, desviar-se de qualquer disparo à distância. A habilidade dura o valor da perícia Tactics em segundos."
+		},
+		{
+			"name": "Golpe Afiado",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Você estica e enrijece os dedos tornando-os quase uma navalha, caso acerte seu próximo golpe será num ponto vital causando sangramento no oponente e o dano será baseado na sua perícia Tactics."
+		},
+		{
+			"name": "Perseverança",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Sua determinação o impede de cair em batalha, você rapidamente recupera sua pilha de heroísmo."
+		},
+		{
+			"name": "Golpe de Seis Polegadas",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Você aproxima a mão bem perto do diafragma do oponente, aplicando um golpe tão forte que é capaz de empurrá-lo. Caso o alvo acerte um obstáculo, o dano é aumentado. Além disso, o alvo empurrado causará dano em todos que estiverem em seu caminho."
+		},
+		{
+			"name": "Corpo de Diamante",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua disciplina e experiência em meditar o tornaram um templo. Você usa seu tactics para resistir impacto de golpes e possui resistência ímpar contra intempéries climáticas."
+		},
+		{
+			"name": "Punho de Ferro",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "300s",
+			"description": "Você bate tão forte que é capaz de nocautear o oponente, literalmente colocando-o para dormir."
+		},
+		{
+			"name": "Desarmar Oponente",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "120s",
+			"description": "Você consegue desarmar seu oponente que fica impossibilitado de reequipar qualquer arma por um tempo baseado em seu tactics. Se o oponente estiver desarmado ou for um NPC, ele terá redução no dano."
+		}
+		]
+	},
+	{
+		"name": "Samurai",
+		"caminho": "Caminho das Armas",
+		"imagem": "samurai.png",
+		"id_classe": "samurai",
+		"exclusividade": [ "Povos do Leste" ],
+		"description": "O espadachim é um mestre guerreiro, dedicado à perfeição de sua postura de combate. Seu domínio abrange o combate sem escudos ou armaduras, exceto armaduras de madeira. Exibindo agilidade excepcional, o espadachim está sempre pronto para desferir golpes devastadores, revelando uma destreza letal em suas habilidades marciais.",
+		"habilidades": [
+		{
+			"name": "Tabibito no Michi",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "60s",
+			"description": "Passivamente, você recebe um bônus para defender sem escudo caso esteja sem armadura ou usando apenas armaduras de samurai. Ao ativar, você garante uma defesa no próximo ataque."
+		},
+		{
+			"name": "Ryu no Ikari",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "O espadachim avança como o vento, desferindo golpes letais em linha reta, cortando seus inimigos no caminho."
+		},
+		{
+			"name": "Kanpeki na Jikkō",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Pronto para a sua execução, você prepara sua postura para acertar o seu próximo golpe. Caso ele acerte, você desferirá um golpe crítico."
+		},
+		{
+			"name": "Kaze no Ichigeki",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Com destreza letal, você antecipa a batalha, criando uma abertura para lançar dois ataques consecutivos"
+		},
+		{
+			"name": "Ken no Tatsujin",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Um mestre na arte da defesa, cada golpe contra você desencadeia uma resposta imediata. Sempre que você defender um ataque, você contra atacará."
+		}
+		]
+	},
+	{
+		"name": "Argur: Domínio da Vida",
+		"caminho": "Caminho da Sabedoria",
+		"imagem": "argur_vida.png",
+		"id_classe": "argur_vida",
+		"exclusividade": [ "Aiglanos" ],
+		"description": "Os Augures são poderosos clérigos de Aigla, responsáveis por manterem a Ordem e poder máximo sobre as outras constituições. O Augur adepto do domínio da vida utiliza a magia divina caracterizada por runas sagradas para proteger e curar seus aliados.",
+		"habilidades": [
+		{
+			"name": "Dominatio Animae",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua fé lhe concede proteção arcana, você ganha +40 de Vontade."
+		},
+		{
+			"name": "Vindicta Sancta",
+			"level": 6,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "O panteão de Zharkia abençoa sua permanencia no mundo material, aumentando o ritmo que recupera a seu corpo e sua alma."
+		},
+		{
+			"name": "Exitium Maleficorum",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "180s",
+			"description": "Você prepara um golpe poderoso, especialmente eficaz contra magos."
+		},
+		{
+			"name": "Aegis Vitalis",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "A energia sagrada flui pelo seu corpo aumentando sua recuperacao de sua mana e reduzindo o desgaste das runas."
+		},
+		{
+			"name": "Decretum Venerationis",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Os Deuses Celestiais abençõam seus golpes contra demônios e undead."
+		}
+		]
+	},
+	{
+		"name": "Martelo Divino",
+		"caminho": "Caminho da Sabedoria",
+		"imagem": "martelo_divino.png",
+		"id_classe": "martelo_divino",
+		"exclusividade": [ "Badûran" ],
+		"description": "Os clérigos anões, conhecidos como “Martelos Divinos”, são guerreiros sagrados que combinam resistência e suporte estratégico. Vestidos em armaduras robustas, brandem martelos sagrados e cultuam o Pai da Forja. Funcionam como off tanks, absorvendo ataques, e oferecem suporte vital aos tanks aliados, fortalecendo a linha de frente com bençãos divinas. Sua devoção inabalável e habilidades tácticas fazem dos Martelos Divinos a personificação da resistência e justiça divina.",
+		"habilidades": [
+		{
+			"name": "Campeão das Montanhas",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "O Pai da Forja o abençoa com a Fortitude das Montanhas e a Mãe com a vontade necessária para nunca desistir de seu propósito. +20 fortitude +20 vontade."
+		},
+		{
+			"name": "Martelo Tempestuoso",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "10 Mana + 15 Stamina",
+			"cooldown": "180s",
+			"description": "Você arremessa o seu martelo, que ao atingir o oponente, acerta-o com um raio divino, atordoando-o por alguns segundos baseado no seu mlore."
+		},
+		{
+			"name": "Parede de Escudos",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "15 Mana + 15 Stamina",
+			"cooldown": "180s",
+			"description": "Você e seus aliados adjacentes recebem um bônus passivo de parry baseado no seu Magic Lore."
+		},
+		{
+			"name": "Salto da Bigorna",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "20 Mana + 20 Stamina",
+			"cooldown": "300s",
+			"description": "O anão joga o martelo para cima com uma força divina e se segura nele, saltando 5 tiles. Ao atingir o solo, toda criatura a dois tiles de distância cai com o tremor causado no chão."
+		},
+		{
+			"name": "Pele de Pedra",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "35 Mana + 15 Stamina",
+			"cooldown": "360s",
+			"description": "Você toca um aliado que é abençoado com a proteção das montanhas, envolvendo-o completamente. Tornando invulnerável por mlore/5 segundos."
+		}
+		]
+	},
+	{
+		"name": "Valsharess",
+		"caminho": "Caminho da Sabedoria",
+		"imagem": "valsharess.png",
+		"id_classe": "valsharess",
+		"exclusividade": [ "Har’oloth" ],
+		"description": "Valsharess são clérigas de Idrith, a deusa dos Drows. Junto de sua fé sombria e sua percepção sobrenatural, a sacerdotisa espalha terror para aqueles que entram em seu caminho.",
+		"habilidades": [
+		{
+			"name": "Visão verdadeira",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "Mana 10",
+			"cooldown": "60s",
+			"description": "Caso seja noite ou esteja em cavernas. A clériga consegue revelar qualquer criatura invisível a seu redor, caso revele, a criatura fica paralisada por alguns segundos. Além disso, recebe um bônus passivo em awareness."
+		},
+		{
+			"name": "Dominância matriarcal",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "15 Mana + 10 Stamina",
+			"cooldown": "180s",
+			"description": "Caso acerte o próximo golpe com chicote, a clériga causa um dano baseado em seu magiclore. Caso esteja invisível, o dano dobra. Se for noite ou estiver em caverna, o alvo fica paralisado por alguns segundos."
+		},
+		{
+			"name": "Prole Sombria",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "35 Mana + 20 Stamina",
+			"cooldown": "600s",
+			"description": "A Valsharess é capaz de conjurar aranhas de acordo com seu magic lore, caso seja noite, são duas."
+		},
+		{
+			"name": "Caminhar nas sombras",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "20 Mana + 10 Stamina",
+			"cooldown": "180s",
+			"description": "A clériga é capaz de abrir uma fenda nas trevas e caminhar nas sombras por alguns segundos. Se for noite ou caverna, ela ganha velocidade."
+		},
+		{
+			"name": "Tormento de Idrith",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "40 Mana + 20 Stamina",
+			"cooldown": "300s",
+			"description": "Todas as criaturas numa área que não estejam na party são paralisadas por alguns segundos. Se for noite ou caverna, as criaturas ficam cegas, recebendo penalidade no ataque por alguns segundos."
+		}
+		]
+	},
+	{
+		"name": "Arqueiro Arcano",
+		"caminho": "Caminho da Sabedoria",
+		"imagem": "arqueiro_arcano.png",
+		"id_classe": "arqueiro_arcano",
+		"exclusividade": [ "Alüriel" ],
+		"description": "O Arqueiro Arcano usa os poderes de Alora para imbuir seu arco com poderosas energias arcanas. Utilizando sua habilidade mágica, cria flechas elementais que rasgam o ar e destroem os inimigos com precisão devastadora. Seja manipulando chamas ardentes, eletricidade fulminante ou gelo cortante, o Arqueiro Arcano é um mestre da destruição à distância, combinando a precisão letal de um arqueiro com o poder ilimitado da magia elemental.",
+		"habilidades": [
+		{
+			"name": "Convergência Elemental",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "10s",
+			"description": "No ápice de sua conexão arcana, o Arqueiro Arcano atinge um novo nível de maestria ao escolher um dos três elementos primordiais para guiar seu poder. A escolha do elemento moldará o caminho de suas habilidades futuras, imbuindo suas flechas com propriedades únicas e devastadoras"
+		},
+		{
+			"name": "Manifestação Elemental",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Ao dominar seu elemento escolhido, o Arqueiro Arcano ganha acesso a uma habilidade especial que amplia suas capacidades."
+		},
+		{
+			"name": "Fúria Primitiva",
+			"level": 8,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": ""
+		},
+		{
+			"name": "Fera Natural",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Sua forma animal dura o dobro de tempo."
+		},
+		{
+			"name": "Invocação Duradoura",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seus animais invocados lutam por mais tempo, se não forem derrotados."
+		}
+		]
+	},
+	{
+		"name": "Xamã",
+		"caminho": "Caminho da Sabedoria",
+		"imagem": "xama.png",
+		"id_classe": "xama",
+		"exclusividade": [ "Gulthrak" ],
+		"description": "Xamãs, os orcs mais sábios, são líderes espirituais que dominam a magia xamânica. Responsáveis por curar, proteger e lançar maldições, esses guardiões preservam a colheita e evitam o desperdício. Em sintonia com a terra, canalizam energias da natureza para garantir a sobrevivência e prosperidade de suas tribos, personificando o equilíbrio entre benevolência curativa e formidável capacidade de destruir.",
+		"habilidades": [
+		{
+			"name": "Sede de sangue",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "10 Mana + 15 Stamina",
+			"cooldown": "120s",
+			"description": "As areias demandam sangue para que Adar Kor Doom se regenere. A cada morte, um corpo nutre o deserto, que responde com um sopro de vida para que os orcs nunca terminem sua batalha. A cada morte, recupera HP baseado no seu Magic Lore passivamente. Além disso, pode ativar essa habilidade para recuperar vida a cada golpe, por um período equivalente às almas coletadas."
+		},
+		{
+			"name": "Colheita de Almas",
+			"level": 6,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Um ukshar conduz os mortos no pós-vida. O shaman é capaz de armazenar almas para dar propósito para a guerra, que nunca termina. Além disso, um ukshar demonstra o valor de cada recurso trajando uma armadura de ossos sem penalidade. Animais e mortos-vivos não possuem alma."
+		},
+		{
+			"name": "Irmaos de Areia (Xali’Gijak)",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "30 Mana + 20 Stamina",
+			"cooldown": "300s",
+			"description": "O combate permanece mesmo após a morte. Você oferece suas almas ao Deserto, que ergue um ancestral para ajudá-lo em combate. O tempo da invocação escala com almas e Magic Lore."
+		},
+		{
+			"name": "Ancestralidade Elemental",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "35 Mana + 10 Stamina",
+			"cooldown": "240s",
+			"description": "Seus anos enfrentando as criaturas do deserto, nutriram as areias com o sangue necessário para que o Adar Kor Doom regenerasse. Você consegue invocar uma tempestade que cura todos os aliados na área por um período baseado no seu Magic Lore. Você também utiliza a essência das almas para convertê-las no elemento do raio, criando trovoadas que atingem todos os alvos"
+		},
+		{
+			"name": "Arena de Sangue",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "20 Mana + 20 Stamina",
+			"cooldown": "180s",
+			"description": "A morte é o único caminho para a purificação de Adar Kor Doom, você consegue utilizar as almas coletadas e direcioná-las até o seu oponente, atordoando-os com as visões de como cada vida foi ceifada pelo ukshar, causando dano de veneno e aterrorizando o oponente, que recebe penalidade na defesa."
+		}
+		]
+	},
+	{
+		"name": "Engenheiro de Artilharia",
+		"caminho": "Caminho da Sabedoria",
+		"imagem": "eng_artilharia.png",
+		"id_classe": "eng_artilharia",
+		"exclusividade": [ "Badûran" ],
+		"description": "Alguns anões, a partir de suas mentes criativas e seu amor pela tecnologia, foram capazes de estudar e aprender a manufaturar equipamentos complexos e improvisados para auxiliá-los em todo tipo de trabalho.",
+		"habilidades": [
+		{
+			"name": "Artilheiro Preparado",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seu tempo de dedicação a tecnologia o trouxe conhecimentos mais aprofundados. Você consegue carregar mais peso, armas de fogo nunca quebram nas suas mãos e você sabe fazer pólvora mesmo sem alchemy."
+		},
+		{
+			"name": "Municiador Experiente",
+			"level": 6,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seu manuseio e experiência com armas de fogo se prova cada vez melhor. Você consegue recarregar a sua arma na metade do tempo e ao manufaturar munições, você usará apenas até 2 pólvoras."
+		},
+		{
+			"name": "Canhoneiro",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "25 Stamina",
+			"cooldown": "300s",
+			"description": "Seu conhecimento extraordinário permite que você improvise um canhão à sua frente, que automaticamente lança uma imponente bala explosiva, atingindo todos em seu trajeto."
+		},
+		{
+			"name": "Quinquilharias",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "60s",
+			"description": "Você é capaz de atribuir uma melhoria à arma que estiver na sua mão. (Mira Telescópica, Munição explosiva ou Cano Serrado)"
+		},
+		{
+			"name": "Construtor de Golems",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "600s",
+			"description": "No ápice da sua manufatura, você agora é capaz de construir seu próprio Golem de metal, que mal pode esperar para ser pilotado por seu engenheiro favorito."
+		}
+		]
+	},
+	{
+		"name": "Dançarino das Sombras",
+		"caminho": "Caminho do Subterfúgio",
+		"imagem": "dancarino_sombras.png",
+		"id_classe": "dancarino_sombras",
+		"exclusividade": [ "Har’oloth" ],
+		"description": "Os dançarinos das sombras são guerreiros Drow especializados na arte das sombras inata de sua raça, sendo capazes de imbuir seus ataques com magia sombria e desaparecer diante dos olhos de seu oponente.",
+		"habilidades": [
+		{
+			"name": "Dança das Sombras",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seu estilo de luta rápido e envolto em sombras o faz acertar mais golpes baseado no seu Magic Lore."
+		},
+		{
+			"name": "Lâmina da Escuridão",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "15 Stamina + 15 Mana",
+			"cooldown": "180s",
+			"description": "Sua conexão com a magia inata sombria dos Drow é ainda maior. Você envolve sua arma em energia sombria, fazendo com que seu próximo ataque cause um dano mágico adicional baseado em seu Magic Lore e silencie o alvo."
+		},
+		{
+			"name": "Avanço Sombrio",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "10 Stamina + 20 Mana",
+			"cooldown": "180s",
+			"description": "Você se conecta com sua natureza sombria, se camuflando completamente com as sombras em um tempo baseado no seu Magic Lore. Ao deixar a forma invisível, caso o dançarino esteja na escuridão, ele assume uma forma borrada, tornando difícil para seus oponentes acertá-lo."
+		},
+		{
+			"name": "Dança da Morte",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "10 Stamina + 20 Mana",
+			"cooldown": "180s",
+			"description": "Por um tempo baseado no seu Magic Lore, os seus próximos ataques te movem para as costas do seu oponente."
+		},
+		{
+			"name": "Forma Umbral",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você é um mestre na arte das sombras. Quando usar Avanço Sombrio, você também pode atacar enquanto invisível."
+		}
+		]
+	},
+	]
+}

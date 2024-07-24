@@ -1,0 +1,157 @@
+{
+    "passados": [
+	{
+		"name": "Mestre do Lar",
+		"description": "Mestre do Lar é um passado que representa alguém que dedicou anos ao cuidado e à manutenção de um lar. Este personagem tem habilidades excepcionais em trabalhos domésticos, tornando-se um verdadeiro especialista em culinária, limpeza, costura e jardinagem. Graças a sua experiência e eficiência, ele pode realizar essas tarefas com grande rapidez e economia.",
+		"vantagem": "Reduz o custo de Domestic Work para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Domestic Work",
+		"skill_custo": "1",
+		"exclusividade": [ "" ],
+		"imagem": "mestre_lar.gif"
+	},
+	{
+		"name": "Ferreiro Aprendiz",
+		"description": "Ferreiro Aprendiz é um passado que representa alguém que passou anos aprendendo o ofício de forjar metais. Sob a tutela de um mestre ferreiro, este personagem desenvolveu habilidades fundamentais em trabalhar com metais, tornando-se eficiente na criação e reparo de armas, armaduras e ferramentas metálicas.",
+		"vantagem": "Reduz o custo de Metal Working para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Metal Working",
+		"skill_custo": "1",
+		"exclusividade": [ "" ],
+		"imagem": "ferreiro_aprendiz.gif"
+	},
+	{
+		"name": "Coletor",
+		"description": "Coletor é um passado que descreve alguém experiente em buscar e reunir recursos na natureza. Este personagem passou muito tempo explorando florestas, campos e montanhas, tornando-se hábil em encontrar ervas, minerais e outros materiais valiosos.",
+		"vantagem": "Reduz o custo de Gathering para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Gathering",
+		"skill_custo": "1",
+		"exclusividade": [ "" ],
+		"imagem": "coletor.gif"
+	},
+	{
+		"name": "Rato de Rua",
+		"description": "Rato de Rua é um passado que descreve alguém que cresceu nas ruas, sobrevivendo através de astúcia e furtividade. Este personagem desenvolveu habilidades excepcionais em surrupiar itens sem ser detectado, tornando-se um mestre do furto.",
+		"vantagem": "Reduz o custo de Pickpocketing para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Pickpocketing",
+		"skill_custo": "1",
+		"exclusividade": [ "" ],
+		"imagem": "rato_rua.gif"
+	},
+	{
+		"name": "Aventureiro",
+		"description": "Aventureiro é um passado que descreve alguém que passou a vida desvendando mistérios e explorando lugares perigosos. Este personagem adquiriu uma compreensão profunda de mecanismos e dispositivos complexos, tornando-se apto em resolver problemas técnicos e desarmar armadilhas.",
+		"vantagem": "Reduz o custo de Mechanics para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Mechanics",
+		"skill_custo": "1",
+		"exclusividade": [ "" ],
+		"imagem": "aventureiro.gif"
+	},
+	{
+		"name": "Caçador",
+		"description": "Caçador é um passado que descreve alguém com vasta experiência em sobreviver e prosperar na natureza. Este personagem desenvolveu habilidades essenciais para rastrear presas, encontrar alimento e abrigo, e navegar por terrenos selvagens.",
+		"vantagem": "Reduz o custo de Survival para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Survival",
+		"skill_custo": "1",
+		"exclusividade": [ "" ],
+		"imagem": "cacador.gif"
+	},
+	{
+		"name": "Curandeiro",
+		"description": "Curandeiro é um passado que descreve alguém que viajou por diversas regiões, prestando cuidados médicos e aprendendo sobre diferentes práticas de cura. Este personagem se tornou altamente competente em tratar ferimentos e doenças, utilizando remédios e técnicas variadas.",
+		"vantagem": "Reduz o custo de Medicine para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Medicine",
+		"skill_custo": "1",
+		"exclusividade": [ "" ],
+		"imagem": "curandeiro.gif"
+	},
+	{
+		"name": "Marceneiro",
+		"description": "Marceneiro é um passado que descreve alguém experiente em trabalhar com madeira. Este personagem desenvolveu habilidades excepcionais em esculpir, construir e reparar itens de madeira, criando desde móveis intricados até estruturas robustas.",
+		"vantagem": "Reduz o custo de Wood Working para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Wood Working",
+		"skill_custo": "1",
+		"exclusividade": [ "" ],
+		"imagem": "marceneiro.gif"
+	},
+	{
+		"name": "Véu de Idrith",
+		"description": "Véu de Idrith é um passado que descreve alguém com sentidos aguçados e uma percepção elevada do mundo ao seu redor. Este personagem desenvolveu uma capacidade única de detectar perigos e oportunidades, sempre atento aos menores detalhes.",
+		"vantagem": "Reduz o custo de Awareness para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Awareness",
+		"skill_custo": "1",
+		"exclusividade": [ "Har’oloth" ],
+		"imagem": "veu_de_idrith.gif"
+	},
+	{
+		"name": "Pés Leves",
+		"description": "Pés Leves é um passado que descreve alguém que se especializou em mover-se silenciosamente e sem ser notado. Este personagem desenvolveu habilidades excepcionais em furtividade, permitindo que se infiltre em áreas protegidas e evite detecção.",
+		"vantagem": "Reduz o custo de Sneak para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Sneak",
+		"skill_custo": "1",
+		"exclusividade": [ "Polkinea" ],
+		"imagem": "pes_leves.gif"
+	},
+	{
+		"name": "Templo da Mente",
+		"description": "Templo da Mente é um passado que descreve alguém que dedicou sua vida ao estudo e compreensão das artes mágicas. Este personagem desenvolveu um conhecimento profundo sobre teorias, histórias e fenômenos mágicos, tornando-se um especialista em identificar e entender a magia.",
+		"vantagem": "Reduz o custo de Magic Lore para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Magic Lore",
+		"skill_custo": "1",
+		"exclusividade": [ "Alüriel" ],
+		"imagem": "templo_mente.gif"
+	},
+	{
+		"name": "Escaramuçador",
+		"description": "Escaramuçador é um passado que descreve alguém treinado em combate à distância. Este personagem desenvolveu habilidades excepcionais em usar armas de longo alcance, como arcos e bestas, tornando-se eficaz em atacar inimigos de longe.",
+		"vantagem": "Reduz o custo de Ranged para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Ranged",
+		"skill_custo": "1",
+		"exclusividade": [ "Björske" ],
+		"imagem": "escaramucador.gif"
+	},
+	{
+		"name": "Brutamontes",
+		"description": "Brutamontes é um passado que descreve alguém com experiência em liderança e estratégia de combate. Este personagem desenvolveu habilidades excepcionais em planejar e executar táticas militares, coordenando ataques e defensivas de forma eficaz.",
+		"vantagem": "Reduz o custo de Tactics para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Tactics",
+		"skill_custo": "1",
+		"exclusividade": [ "Gulthrak" ],
+		"imagem": "brutamontes.gif"
+	},
+	{
+		"name": "Filho do Progresso",
+		"description": "Filho do Progresso é um passado que descreve alguém que se dedicou ao estudo e prática da alquimia. Este personagem desenvolveu habilidades excepcionais em misturar ingredientes para criar poções, elixires e outros compostos químicos.",
+		"vantagem": "Reduz o custo de Alchemy para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Alchemy",
+		"skill_custo": "1",
+		"exclusividade": [ "Badûran" ],
+		"imagem": "filho_progresso.gif"
+	},
+	{
+		"name": "Andarilho",
+		"description": "Andarilho é um passado que descreve alguém com vasta experiência em combates com armas de uma mão. Este personagem desenvolveu habilidades excepcionais em manejar espadas curtas, machados e outras armas leves, equilibrando ataque e defesa com precisão.",
+		"vantagem": " Reduz o custo de One Handed para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "One Handed",
+		"skill_custo": "1",
+		"exclusividade": [ "Povos do Leste" ],
+		"imagem": "andarilho.gif"
+	},
+	{
+		"name": "Legionário",
+		"description": "Legionário é um passado que descreve alguém treinado nas artes defensivas de combate. Este personagem desenvolveu habilidades excepcionais em bloquear e desviar ataques com armas e escudos, utilizando técnicas avançadas de defesa.",
+		"vantagem": "Reduz o custo de Parry para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Parry",
+		"skill_custo": "1",
+		"exclusividade": [ "Aiglanos" ],
+		"imagem": "legionario.gif"
+	},
+	{
+		"name": "Aliança Natural",
+		"description": "Aliança Natural é um passado que descreve alguém com uma afinidade especial para lidar com animais. Este personagem desenvolveu habilidades excepcionais em treinar, cuidar e comandar criaturas, tornando-se um aliado valioso em situações envolvendo a natureza.",
+		"vantagem": "Reduz o custo de Handle Animal para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
+		"skill": "Handle Animal",
+		"skill_custo": "1",
+		"exclusividade": [ "Alüriel" ],
+		"imagem": "alianca_natural.gif"
+	}
+	]
+}

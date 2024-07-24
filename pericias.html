@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPIC! Build Builder alpha 0.1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body style="background-color: black;">
+	<br>
+	<br>
+	<div class = "container">
+		<div class = "row">
+			<div class="col-12" style="background-color: #373A40;"><h1><center><font color="#ff7f00"><a href="index.html" style="color: #ff7f00; text-decoration: none;">EPIC! Build Builder</a></font></center></h1>
+			<h4><center><font color="white">Alpha 0.1</font></h4></center></div>
+		</div>
+	</div>
+	<div class = "container">
+		<div class = "row">
+			<div class="col-4"><h4><center>Perícias</center></h4>
+				<center><small>Arraste e solte</small></center>
+			</div>
+			<div class="col-2" style="background-color: #686D76;" >
+				<h4><center><font color="white">Primária(s)</font></center></h4>
+			</div>
+			<div class="col-2" style="background-color: #373A40;" >
+				<h4><center><font color="white">Secundária(s)</font></center></h4>
+			</div>
+			<div class="col-2" style="background-color: #3C5B6F;" >
+				<h4><center><font color="white">Terciária(s</font></center></h4>
+			</div>
+			<div class="col-2" style="background-color: #ff7f00;">
+				<h1><font color="white">Resumo</font></h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-2" id="lista-pericias1"></div>
+			<div class="col-2" id="lista-pericias2"></div>
+			<div class="col-2" style="background-color: #686D76;" id="dropbox-primarias" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<div class="dropzone-content"></div>
+			</div>
+			<div class="col-2" style="background-color: #373A40;" id="dropbox-secundarias" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<div class="dropzone-content"></div>
+			</div>
+			<div class="col-2" style="background-color: #3C5B6F;" id="dropbox-terciarias" ondrop="drop(event)" ondragover="allowDrop(event)">
+				<div class="dropzone-content"></div>
+			</div>			
+			<div class="col-2" style="background-color: #0f0f0f;">
+				<font color="white"><br><b>Você selecionou:</b><br><br> 
+				<b>Cultura:</b> <span id="selected-origin" color="white"></span><br>
+				<b>Raça:</b> <span id="selected-race" color="white"></span><br>
+				<b><span id="selected-caminho"></span></b><br>
+				
+				<b>Pilha de Heroismo:</b> <span id="save-pilha" align="justify"></span><br>
+				<b>Fortitude:</b> <span id="save-fortitude" align="justify"></span><br>
+				<b>Reflexo:</b> <span id="save-reflexo" align="justify"></span><br>
+				<b>Vontade:</b> <span id="save-vontade" align="justify"></span><br>
+				<b>Classe:</b> <span id="selected-classe" style="color: white;"></span><br>
+				<b>Passado:</b> <span id="selected-passado" style="color: white;"></span><br>
+				<br>
+				<button onclick="goBack()" style="background-color: lightred;">Voltar</button>
+				<button onclick="saveSelection()" style="background-color: lightblue;">Finalizar</button></font>
+				<br>
+				<br>	
+			</div>	
+		</div>
+	</div>
+	<div class = "container">
+		<div class = "row">
+			<div class="col-8" style="background-color: #ff7f00; ">
+				<h1><font color="white"><center>Perícias</center></font></h1>
+			</div>
+			<div class="col-4" style="background-color: #373A40; ">
+				<h1><font color="white"><center>Pontos Restantes</center></font></h1>
+			</div>
+		</div>
+		<div class = "row">
+			<div class="col-2"><b><center>1 Ponto</center></b></div>
+			<div class="col-2"><b><center>2 Pontos</center></b></div>
+			<div class="col-2"><b><center>3 Pontos</center></b></div>
+			<div class="col-2"><b><center>4 Pontos</center></b></div>
+			<div class="col-4" style="background-color: #686D76;"><b></b></div>
+		</div>
+		<div class = "row">
+			<div class="col-2" id="pericias1" style="text-align: center"></div>
+			<div class="col-2" id="pericias2" style="text-align: center;"></div>
+			<div class="col-2" id="pericias3" style="text-align: center;"></div>
+			<div class="col-2" id="pericias4" style="text-align: center;"></div>
+			<div class="col-4" style="background-color: #686D76;">
+				<b><center><h1 style="font-size: 120px"><font color="white"><span id="caminhos-pontos-pericia"></font></span></h1></center></b>
+			</div>
+		</div>
+	</div>
+	<div class = "container">
+		<div class = "row">
+			<div class="col-12" style="background-color: #373A40;"> </div>
+		</div>
+		<div class = "row">
+			<div class="col-2" style="background-color: #373A40; text-align: left">
+				<font color="white">| <a href="index.html" style="color: #ff7f00; text-decoration: none;"><b>Início</b></a> 
+				<br>| <a href="todo.html" style="color: white; text-decoration: none;" >To-do</a> 
+				<br>| <a href="changelog.html"  style="color: white; text-decoration: none;">Changelog</a></font>
+			</div>
+			<div class="col-2" style="background-color: #373A40; text-align: left">
+				<font color="white"></font>
+			</div>
+			<div class="col-2" style="background-color: #373A40; text-align: left">
+				<font color="white"> </font>
+			</div>
+			<div class="col-2" style="background-color: #373A40;"></div>
+			
+			<div class="col-4" style="background-color: #373A40; text-align: left">
+				<font color="white">Inspirações:</font><br>
+				<font color="white">| Made with assets from <a href="https://2minutetabletop.com/" style="color: white; text-decoration: none;" target="_blank"><b>2-Minute Tabletop</b>
+				<br>| <a href="https://epic-shard.com" style="color: white; text-decoration: none;" target="_blank">epic-shard.com</a></font>
+			</div>	
+		</div>
+		<div class = "row">
+			<div class="col-12" style="background-color: #373A40;"> </div>
+		</div>
+	</div>
+	<br>
+	<br>
+	
+	<script src="scripts/pericias.js"></script>
+	
+</body>
+</html>

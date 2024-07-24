@@ -1,0 +1,478 @@
+{
+    "classes_subterfugio": [
+	{
+		"name": "Assassino",
+		"caminho": "Caminho do Subterfúgio",
+		"imagem": "assassino.png",
+		"id_classe": "assassino",
+		"exclusividade": [ "" ],
+		"description": "Assassinos são verdadeiros artistas da execução, habilidosos em emboscadas e versados no manejo de uma variedade de lâminas e arcos leves. Sua perícia no combate se destaca através de ataques furtivos, eficazes em eliminar seus alvos sem serem detectados.",
+		"habilidades": [
+		{
+			"name": "Arsenal Sombrio",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você desenvolveu aptidão e estima por alguns tipos de armas, aumentando seu dano com base no sneak."
+		},
+		{
+			"name": "Ataque Furtivo",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "120s",
+			"description": "Caso ative a habilidade em sneak, garante o próximo acerto que adiciona sneak em dano. Fora do sneak, tenta acertar normal."
+		},
+		{
+			"name": "Instinto Assassino",
+			"level": 8,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Caso acerte um ataque furtivo, garantirá um crítico."
+		},
+		{
+			"name": "Salto das Sombras",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "180s",
+			"description": "Você consegue dar um salto baseado em sneak de distância que não consome passos escondidos. Pulando direto nas costas do oponente."
+		},
+		{
+			"name": "Faro por Sangue",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "240s",
+			"description": "Você consegue eliminar rapidamente oponentes que estejam feridos e quanto mais feridos, maiores os seus bonus."
+		}
+		]
+	},
+	{
+		"name": "Bardo",
+		"caminho": "Caminho do Subterfúgio",
+		"imagem": "bardo.png",
+		"id_classe": "bardo",
+		"exclusividade": [ "" ],
+		"description": "Bardos são artistas implacáveis, capazes de controlar as emoções de uma multidão inteira. Com seus poderes sonoros, o bardo consegue moldar o destino de muitos conflitos ao redor do mundo.",
+		"habilidades": [
+		{
+			"name": "Compositor Talentoso",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Aumenta absurdamente a chance de uma de suas composições possuir efeitos mágicos lendários. Libera um menu que permite escolher que tipo de alvo deve ser afetado por sua música e aumenta chance de compor partituras lendárias."
+		},
+		{
+			"name": "Música Alta",
+			"level": 6,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Aumenta o raio de alcance de suas músicas, permitindo posicionamento mais recuado."
+		},
+		{
+			"name": "Música Persistente",
+			"level": 6,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Aumenta a duração dos efeitos de suas músicas, permitindo manter mais de um efeito musical simultâneo."
+		},
+		{
+			"name": "Música Contagiante",
+			"level": 8,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Aumenta consideravelmente a eficácia dos seus efeitos positivos (buffs)."
+		},
+		{
+			"name": "Música da Alma",
+			"level": 8,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Aumenta consideravelmente a eficácia dos seus efeitos negativos (debuffs) e os torna mais difíceis de resistir."
+		},
+		{
+			"name": "Mestre do Improviso",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você adapta suas músicas ao público com tanta habilidade que torna seus efeitos mais difíceis de resistir e mais intensos."
+		},
+		{
+			"name": "Harmonia Perfeita",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seus efeitos positivos (buffs) passam a ter efeitos adicionais."
+		},
+		{
+			"name": "Vituperio",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seus efeitos negativos (debuffs) passam a ter efeitos adicionais."
+		}
+		]
+	},
+	{
+		"name": "Caçador de Tesouros",
+		"caminho": "Caminho do Subterfúgio",
+		"imagem": "cacador_tesouros.png",
+		"id_classe": "cacador_tesouros",
+		"exclusividade": [ "" ],
+		"description": "Os caçadores de tesouros são exploradores natos, capazes de revelar segredos com seus olhos perspicazes, desarmar armadilhas com suas hábeis mãos e abrir até mesmo a mais complexa das fechaduras.",
+		"habilidades": [
+		{
+			"name": "Desbravador Nato",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "50 Stamina",
+			"cooldown": "200s",
+			"description": "Você consgue esquivar-se por completo das armadilhas quando bem sucedido num teste de Reflexos, além de saber ler mapas de tesouro a abrir fechaduras mágicas."
+		},
+		{
+			"name": "Distrair Oponentes",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "90s",
+			"description": "Você consegue distrair as criaturas, de forma a passar despercebido por elas por um certo tempo"
+		},
+		{
+			"name": "Sempre Alerta",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "90s",
+			"description": "Você é imune a ataques surpresas, além de ganhar um bônus para detectar criaturas escondidas."
+		},
+		{
+			"name": "Especialista em Invasões",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você nunca tem falhas criticas quando arromba fechaduras ou desarma armadilhas."
+		},
+		{
+			"name": "Bolsa Infinita",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você tem uma bolsa que limita aumenta sua capacidade de carregar peso. +120 carry weight"
+		}
+		]
+	},
+	{
+		"name": "Esgrimista",
+		"caminho": "Caminho do Subterfúgio",
+		"imagem": "esgrimista.png",
+		"id_classe": "esgrimista",
+		"exclusividade": [ "" ],
+		"description": "Mestres da lâmina, os esgrimistas são combatentes ágeis e precisos que dominam a arte da esgrima. Eles se destacam na agilidade e na capacidade de desferir golpes rápidos e mortais, combinando técnica e estratégia em combate.",
+		"habilidades": [
+		{
+			"name": "Movimentação Graciosa",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "20 Stamina",
+			"cooldown": "10s",
+			"description": "Você se esquivará do proximo golpe. Além de receber um bônus em acerto e esquiva baseado no seu Tactics."
+		},
+		{
+			"name": "Reflexo Estratégico",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "20s",
+			"description": "Você usa Tactics como Parry passivamente. Ao ativar essa habilidade, sua destreza aumenta em relação a falta de stamina."
+		},
+		{
+			"name": "Desmoralizar",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "15 Stamina",
+			"cooldown": "120s",
+			"description": "Você convida o alvo a ataca-lo de forma desmoralizante, fazendo com que sofra redutores de acerto"
+		},
+		{
+			"name": "Finta Esgrimista",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Toda vez que um ataque é feito contra você nessa postura, você contra-ataca."
+		},
+		{
+			"name": "Mestre Duelista",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Você rola novamente um ataque sempre que erra por um tempo baseado no seu Tactics."
+		}
+		]
+	},
+	{
+		"name": "Espião",
+		"caminho": "Caminho do Subterfúgio",
+		"imagem": "espiao.png",
+		"id_classe": "espiao",
+		"exclusividade": [ "" ],
+		"description": "Espiões treinam sua discrição e são capazes de coletar informações importantes enquanto estão furtivos na escuridão ou disfarçados de quem você menos espera. Espiões são mestres na emboscada e conseguirão sair ilesos de um conflito sem que ninguém os veja.",
+		"habilidades": [
+		{
+			"name": "Espionagem",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você aprendeu truques para se esconder melhor e ouvir através de espessas paredes."
+		},
+		{
+			"name": "Dissimulação",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "300s",
+			"description": "Você consegue se disfarçar com um kit de disfarces e se fingir de morto."
+		},
+		{
+			"name": "Furtividade Aprimorada",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "300s",
+			"description": "De forma passiva, você consegue andar mais em sneak e não recebe penalidade por distância. Ativamente, corre furtivamente."
+		},
+		{
+			"name": "Emboscada",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "300s",
+			"description": "Você consegue organizar uma estrategia para emboscar alguem, fazendo com que todos os seus aliados se escondam. Obs.: Aliados são todos os outros que estão na mesma party que seu personagem."
+		},
+		{
+			"name": "Mestre Espião",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "50 Stamina",
+			"cooldown": "300s",
+			"description": "Você consegue ler através da pessoa e Nada escapa de sua audição agucada. Além disso, consegue se esconder mesmo sendo atacado."
+		}
+		]
+	},
+	{
+		"name": "Malandro Arcano",
+		"caminho": "Caminho do Subterfúgio",
+		"imagem": "malandro_arcano.png",
+		"id_classe": "malandro_arcano",
+		"exclusividade": [ "" ],
+		"description": "Malandros arcanos são aqueles que adquiriram certa sensibilidade mágica para se comunicar com os planos e usá-los ao seu favor. São capazes de roubar magias e manifestarem truques sorrateiros entre seu arsenal.",
+		"habilidades": [
+		{
+			"name": "Sensibilidade Arcana",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você é capaz de conjurar alguns truques mágicos como mãos mágicas e disparo mistico. Seus truques também o permitem utilizar pergaminhos."
+		},
+		{
+			"name": "Ladrão de Magias",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "50 Stamina",
+			"cooldown": "300s",
+			"description": "Você consegue devolver as magias conjuradas contra você. Usa Reflexos como vontade"
+		},
+		{
+			"name": "Invocação do Caos",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "50 Stamina",
+			"cooldown": "300s",
+			"description": "Você rola 1d10, invocando uma criatura. Podendo ser desde uma ovelha até um demonio, que de tao surpreso, lutará ao seu lado."
+		},
+		{
+			"name": "Reaproveitar Pergaminho",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você consegue usar os pergaminhos mais de uma vez antes dele se deteriorar. Também recebe +40 reflexos."
+		},
+		{
+			"name": "Fantasma",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "50 Stamina",
+			"cooldown": "300s",
+			"description": "Você manifesta uma forma arcana sobre seu corpo, fazendo com que consiga passar despercebido por criaturas por um certo tempo."
+		}
+		]
+	},
+	{
+		"name": "Trapaceiro",
+		"caminho": "Caminho do Subterfúgio",
+		"imagem": "trapaceiro.png",
+		"id_classe": "trapaceiro",
+		"exclusividade": [ "" ],
+		"description": "Os trapaceiros são ladrões e jogadores sujos, capazes de sair na vantagem em cada circunstância, eles são os mestres em furtos e roubos sem ser vistos, além de conseguirem sair de um conflito rapidamente para algum lugar mais seguro. Em multidões, o trapaceiro será apenas um vulto enquanto os bolsos são esvaziados.",
+		"habilidades": [
+		{
+			"name": "Batedor de Carteira",
+			"level": 4,
+			"tipo": "Ativa",
+			"custo": "30 Stamina",
+			"cooldown": "180s",
+			"description": "Você nunca falha em roubar moedas, joias e chaves. Caso algo dê errado, você consegue ativar essa habilidade para ganhar velocidade."
+		},
+		{
+			"name": "Truque Sujo",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "240s",
+			"description": "Você engana uma pessoa, dando-lhe um item marcado que logo voltara para sua mão. Além disso, consegue copiar uma chave rapidamente e sem ferramentas."
+		},
+		{
+			"name": "Valentão",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "50 Stamina",
+			"cooldown": "180s",
+			"description": "Quanto mais pessoas aglomeradas, mais exito você tem nos seus roubos. De forma ativa, você da um golpe atordoante em seu alvo."
+		},
+		{
+			"name": "Trapaceiro Experiente",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "180s",
+			"description": "No seu próximo ataque, caso você consiga passar em um teste resistindo de Pickpocketing, você roubará a arma do seu adversario. Além disso, ao receber um golpe mortal, ganhará um tempo para se recuperar."
+		},
+		{
+			"name": "Fuga de Emergência",
+			"level": 12,
+			"tipo": "Ativa",
+			"custo": "50 Stamina",
+			"cooldown": "300s",
+			"description": "Além de conseguir se esconder sob ameaca de combate, você consegue correr furtivamente."
+		}
+		]
+	},
+	{
+		"name": "Vivisseccionista",
+		"caminho": "Caminho do Subterfúgio",
+		"imagem": "vivisseccionista.png",
+		"id_classe": "vivisseccionista",
+		"exclusividade": [ "" ],
+		"description": "Os Vivisseccionistas dominam a traiçoeira arte de assassinar com venenos mortais. Eles são os verdadeiros mestres da discrição, da alquimia letal e da manipulação silenciosa, empregando sua perícia mortal para eliminar alvos com precisão cirúrgica e evitar detecção.",
+		"habilidades": [
+		{
+			"name": "Mestre dos Venenos",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você consegue aplicar todos os venenos em alimentos e armas sem danificá-las."
+		},
+		{
+			"name": "Golpe Sangrento",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "40 Stamina",
+			"cooldown": "120s",
+			"description": "Com uma precisão cirurgica seu próximo golpe, caso acerte o alvo, causará um sangramento baseado na sua habilidade em alquimia."
+		},
+		{
+			"name": "Precisão Cirúrgica",
+			"level": 8,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Suas mãos são extremamente firmes, fazendo com que seus golpes sejam mais precisos. Seus ataques causam mais dano."
+		},
+		{
+			"name": "Veneno Puro",
+			"level": 10,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você aproveita o potencial maximo do veneno, aumentando a duração, a dosagem e o tempo em que alvos ficam paralisados."
+		},
+		{
+			"name": "Mumificação",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seu corpo está tão entorpecido e cheio de substâncias que você fica imune a criticos e venenos."
+		}
+		]
+	},
+	{
+		"name": "Dançarino das Sombras",
+		"caminho": "Caminho do Subterfúgio",
+		"imagem": "dancarino_sombras.png",
+		"id_classe": "dancarino_sombras",
+		"exclusividade": [ "Har’oloth" ],
+		"description": "Os dançarinos das sombras são guerreiros Drow especializados na arte das sombras inata de sua raça, sendo capazes de imbuir seus ataques com magia sombria e desaparecer diante dos olhos de seu oponente.",
+		"habilidades": [
+		{
+			"name": "Dança das Sombras",
+			"level": 4,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Seu estilo de luta rápido e envolto em sombras o faz acertar mais golpes baseado no seu Magic Lore."
+		},
+		{
+			"name": "Lâmina da Escuridão",
+			"level": 6,
+			"tipo": "Ativa",
+			"custo": "15 Stamina + 15 Mana",
+			"cooldown": "180s",
+			"description": "Sua conexão com a magia inata sombria dos Drow é ainda maior. Você envolve sua arma em energia sombria, fazendo com que seu próximo ataque cause um dano mágico adicional baseado em seu Magic Lore e silencie o alvo."
+		},
+		{
+			"name": "Avanço Sombrio",
+			"level": 8,
+			"tipo": "Ativa",
+			"custo": "10 Stamina + 20 Mana",
+			"cooldown": "180s",
+			"description": "Você se conecta com sua natureza sombria, se camuflando completamente com as sombras em um tempo baseado no seu Magic Lore. Ao deixar a forma invisível, caso o dançarino esteja na escuridão, ele assume uma forma borrada, tornando difícil para seus oponentes acertá-lo."
+		},
+		{
+			"name": "Dança da Morte",
+			"level": 10,
+			"tipo": "Ativa",
+			"custo": "10 Stamina + 20 Mana",
+			"cooldown": "180s",
+			"description": "Por um tempo baseado no seu Magic Lore, os seus próximos ataques te movem para as costas do seu oponente."
+		},
+		{
+			"name": "Forma Umbral",
+			"level": 12,
+			"tipo": "Passiva",
+			"custo": "-",
+			"cooldown": "-",
+			"description": "Você é um mestre na arte das sombras. Quando usar Avanço Sombrio, você também pode atacar enquanto invisível."
+		}
+		]
+	}
+    ]
+}

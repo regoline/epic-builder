@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EPIC! Build Builder alpha 0.1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body style="background-color: black;">
+	<br>
+	<br>
+	<div class = "container">
+		<div class = "row">
+			<div class="col-12" style="background-color: #373A40;">
+				<h1><center><font color="#ff7f00"><a href="index.html" style="color: #ff7f00; text-decoration: none;">EPIC! Build Builder</a></font></center></h1>
+				<h4><center><font color="white">Alpha 0.1</font></h4></center></div>
+		</div>
+	</div>
+	<div class = "container">
+		<div class = "row">
+			<div class="col-2"><h1>Passados</h1></div>
+			<div class="col-2"></div>
+			<div class="col-6"><h1>Descrição</h1></div>
+			<div class="col-2" style="background-color: #ff7f00;"><h1><font color="white">Resumo</font></h1></div>
+		</div>
+		<div class="row">
+			<div class="col-2" id="passados-container" align="justify"></div>	
+			<div class="col-2">		
+				<img id="passado-image" src="" style="overflow: hidden; max-width: 100%; max-height: 100%;"/>
+			</div>
+			<div class="col-6">
+				<span id="description-container" style="text-align: justify;"></span><br>
+				<br>
+				<h1>Vantagem</h1>
+				<span id="passado-vantagem" style="text-align: justify;"></span>	
+			</div>
+			<div class="col-2" style="background-color: #0f0f0f;">
+				<font color="white"><br><b>Você selecionou:</b><br><br> 
+				<b>Cultura:</b> <span id="selected-origin" color="white"></span><br>
+				<b>Raça:</b> <span id="selected-race" color="white"></span><br>
+				<b><span id="selected-caminho"></span></b><br>
+				<b>Pontos de perícia:</b> <span id="caminhos-pontos-pericia"></span><br>
+				<b>Pilha de Heroismo:</b> <span id="save-pilha" align="justify"></span><br>
+				<b>Fortitude:</b> <span id="save-fortitude" align="justify"></span><br>
+				<b>Reflexo:</b> <span id="save-reflexo" align="justify"></span><br>
+				<b>Vontade:</b> <span id="save-vontade" align="justify"></span><br>
+				<b>Classe:</b> <span id="selected-classe" style="color: white;"></span><br>
+				<b>Passado:</b> <span id="selected-passado" style="color: white;"></span><br>
+				<br>
+				<button onclick="goBack()" style="background-color: lightred;">Voltar</button>
+				<button onclick="saveSelection()" style="background-color: lightblue;">Próximo</button></font>
+				<br>
+				<br>	
+			</div>	
+		</div>
+	</div>
+	<div class = "container">
+		<div class = "row">
+			<div class="col-12" style="background-color: #373A40;"> </div>
+		</div>
+		<div class = "row">
+			<div class="col-2" style="background-color: #373A40; text-align: left">
+				<font color="white">| <a href="index.html" style="color: #ff7f00; text-decoration: none;"><b>Início</b></a> 
+				<br>| <a href="todo.html" style="color: white; text-decoration: none;" >To-do</a> 
+				<br>| <a href="changelog.html"  style="color: white; text-decoration: none;">Changelog</a></font>
+			</div>
+			<div class="col-2" style="background-color: #373A40; text-align: left">
+				<font color="white"></font>
+			</div>
+			<div class="col-2" style="background-color: #373A40; text-align: left">
+				<font color="white"> </font>
+			</div>
+			<div class="col-2" style="background-color: #373A40;"></div>
+			
+			<div class="col-4" style="background-color: #373A40; text-align: left">
+				<font color="white">Inspirações:</font><br>
+				<font color="white">| Made with assets from <a href="https://2minutetabletop.com/" style="color: white; text-decoration: none;" target="_blank"><b>2-Minute Tabletop</b>
+				<br>| <a href="https://epic-shard.com" style="color: white; text-decoration: none;" target="_blank">epic-shard.com</a></font>
+			</div>	
+		</div>
+		<div class = "row">
+			<div class="col-12" style="background-color: #373A40;"> </div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<script src="scripts/passados.js"></script>
+</body>
+</html>
