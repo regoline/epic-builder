@@ -9,7 +9,7 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
     let saveClasse = localStorage.getItem('saveClasse');
     let savePassado = localStorage.getItem('savePassado');
     let savePassadoSkill = localStorage.getItem('savePassadoSkill');
-let saveCaracteristica = localStorage.getItem('saveCaracteristica');
+	let saveCaracteristica = localStorage.getItem('saveCaracteristica');
 
     document.getElementById('selected-origin').innerText = localStorage.getItem('selectedOrigin');
     document.getElementById('selected-race').innerText = localStorage.getItem('selectedRace');
@@ -21,7 +21,7 @@ let saveCaracteristica = localStorage.getItem('saveCaracteristica');
     document.getElementById('caminhos-pontos-pericia').innerText = localStorage.getItem('caminhosPontosPericia');
     document.getElementById('selected-classe').innerText = localStorage.getItem('saveClasse');
     document.getElementById('selected-passado').innerText = savePassado;
-	document.getElementById('selected-categoria').innerText = saveCaracteristica;
+	document.getElementById('selected-caracteristica').innerText = saveCaracteristica;
 
 	let selectedCaminhoData;
 
