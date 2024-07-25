@@ -211,7 +211,7 @@ function drop(event) {
 			{
 				if (primariasItems.length >= 1)
 				{
-					alert("Você só pode ter no máximo 1 perícias primárias.");
+					alert("Você só pode ter no máximo 1 perícia primária.");
 					return; // Exit if maximum limit reached
 				}
 			}
