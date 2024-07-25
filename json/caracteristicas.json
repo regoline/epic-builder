@@ -1,0 +1,214 @@
+{
+    "caracteristicas": [
+	{
+		"name": "Corpulento",
+		"description": "Seu corpo se desenvolveu bastante forte, largo e volumoso, porém , porém, o desenvolvimento de seus reflexos e raciocínio foi negligenciado.",
+		"vantagem": [ "+20 DEX" ],
+		"desvantagem": [ "-5 DEX", "-5 INT" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "corpulento.gif"
+	},
+	{
+		"name": "Ágil",
+		"description": "Seu corpo se desenvolveu com bastante agilidade e você desenvolveu uma excelente coordenação motora, porém, o desenvolvimento de sua força física e capacidade intelectual foi negligenciado.",
+		"vantagem": [ "+20 DEX" ],
+		"desvantagem": [ "-5 STR", "-5 INT" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "agil.gif"
+	},
+	{
+		"name": "Gênio",
+		"description": "Sua mente se desenvolveu e uma maneira acima da média, porém, o desenvolvimento de suas capacidades físicas foi negligenciado.",
+		"vantagem": [ "+20 INT" ],
+		"desvantagem": [ "-5 STR", "-5 DEX" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "genio.gif"
+	},
+	{
+		"name": "Afogado em Mana",
+		"description": "Seu corpo nasceu com uma característica que o permite armazenar mana em mais quantidade, porém isso afeta drasticamente seu desenvolvimento físico.",
+		"vantagem": [ "+40 MANA" ],
+		"desvantagem": [ "-10 STR", "-10 DEX" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "Caminho da Sabedoria" ],
+		"imagem": "afogado_mana.gif"
+	},
+	{
+		"name": "Fortitude do Urso",
+		"description": "Sua saúde é acima da média e seu corpo bem adaptável. Você é mais resistente à doenças venenos e ao clima.",
+		"vantagem": [ "+30 Fortitude" ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "fortitude_urso.gif"
+	},
+	{
+		"name": "Reflexos de Pantera",
+		"description": "Sua mente e seus músculos comunicam-se numa velocidade acima da média. Você tem reflexos masi aguçados para escapar de armadilhas e outras situações repentinas.",
+		"vantagem": [ "+30 Reflexos" ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "reflexo_pantera.gif"
+	},
+	{
+		"name": "Vontade da Águia",
+		"description": "Sua força de vontade é acima da média. Você é mais resistente a efeitos que afetam a mente, mágicos ou não.",
+		"vantagem": [ "+30 Vontade" ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "vontade_aguia.gif"
+	},
+	{
+		"name": "Nômade do Deserto",
+		"description": "Vários anos sobrevivendo com nômade no deserto prepararam seu corpo para suportar melhor ambientes com temperaturas elevadas.",
+		"vantagem": [ "+60 Fortitude contra calor" ],
+		"desvantagem": [ "-30 Fortitude contra o frio" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "nomade_deserto.gif"
+	},
+	{
+		"name": "Sabe-Tudo",
+		"description": "Você sempre teve facilidade em aprender muitas perícias, mas se especializar não é o seu forte.",
+		"vantagem": [ "+5 pontos para comprar perícias" ],
+		"desvantagem": [ "Apenas uma perícia primária" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "sabe_tudo.gif"
+	},
+	{
+		"name": "Natureza Arcana",
+		"description": "Sua natureza arcana o permitiu manipular a energia arcana que paira em Eora.",
+		"vantagem": [ "Você é capaz de conjurar truques mágicos." ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "Elfo", "Drow" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "natureza_arcana.gif"
+	},
+	{
+		"name": "Sorrateiro",
+		"description": "Seu tamanho torna mais fácil para você se esconder diante dos outros.",
+		"vantagem": [ "Você recebe bônus para se esconder." ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "Polski" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "sorrateiro.gif"
+	},
+	{
+		"name": "Cavar Buracos",
+		"description": "Você sabe como extrair mais minério a cada extração.",
+		"vantagem": [ "Extrai +2 minérios a mais a cada extração." ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "Anão" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "cavar_buracos.gif"
+	},
+	{
+		"name": "Robusto",
+		"description": "Você cresceu mais isolado de sua tribo, perdendo os ensinamentos do ukshar. Em compensação, seu corpo teve que sobreviver às intempéries do deserto.",
+		"vantagem": [ "+25 STR" ],
+		"desvantagem": [ "-5 INT" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "Orc" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "robusto.gif"
+	},
+	{
+		"name": "Adaptável",
+		"description": "Você se adapta a qualquer temperatura, seja quente ou fria.",
+		"vantagem": [ "Bônus +60 para resistir a danos climáticos" ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "" ],
+		"exclusividade_racial": [ "Humano" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "adaptavel.gif"
+	},
+	{
+		"name": "Oito Olhos",
+		"description": "A vida em Umbreterna não é para os tolos ou incautos. Você se mantém atento, cada corredor espreita a própria morte.",
+		"vantagem": [ "+25 Awareness" ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "Har’oloth" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "oito_olhos.gif"
+	},
+	{
+		"name": "Força da Legião",
+		"description": "Como um legionário, seu escudo é uma extensão do seu braço. Protegendo não apenas você, mas o Imperium.",
+		"vantagem": [ "Você recebe apenas metade da penalidade usando Scutum" ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "Aiglanos" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "forca_legiao.gif"
+	},
+	{
+		"name": "Cavalaria de Escaramuça",
+		"description": "Você aprendeu a montar desde pequeno, sabendo como manter o equilibrio no cavalo e a usá-lo em combate.",
+		"vantagem": [ "Você não recebe penalidades no combate montado, podendo até usar arcos." ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "Povos do Leste", "Björske" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "cavalaria_escaramuca.gif"
+	},
+	{
+		"name": "Conexão com Alora",
+		"description": "Você fortaleceu ainda mais sua conexão com a Deusa. Por adorá-la, recebe um bônus em mana.",
+		"vantagem": [ "+10 Mana" ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "Alüriel" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "conexao_alora.gif"
+	},
+	{
+		"name": "Defensor Anão",
+		"description": "Seu compromisso com Khron Kaz’ad, fez de você um anão diferenciado.",
+		"vantagem": [ "Você recebe 1/3 do seu Parry como redução de dano." ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "Badûran" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "defensor_anao.gif"
+	},
+	{
+		"name": "Desapercebido",
+		"description": "É difícil notar algo tão pequeno e sagaz, você recebe um bônus para dar mais passos escondido.",
+		"vantagem": [ "Você aumenta em 50% os seus passos." ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "Polkinea" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "desapercebido.gif"
+	},
+	{
+		"name": "Cria do Deserto",
+		"description": "Como um caçador de Aklat ou apenas um nômade na Horda, você desenvolveu um resistência ímpar ao calor do deserto.",
+		"vantagem": [ "+90 Fortitude contra calor" ],
+		"desvantagem": [ "" ],
+		"exclusividade_cultural": [ "Gulthrak" ],
+		"exclusividade_racial": [ "" ],
+		"exclusividade_caminho": [ "" ],
+		"imagem": "cria_deserto.gif"
+	}
+	]
+}
