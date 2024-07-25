@@ -9,6 +9,7 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
     let saveClasse = localStorage.getItem('saveClasse');
     let savePassado = localStorage.getItem('savePassado');
     let savePassadoSkill = localStorage.getItem('savePassadoSkill');
+	let saveCaracteristica = localStorage.getItem('saveCaracteristica');
 
     document.getElementById('selected-origin').innerText = localStorage.getItem('selectedOrigin');
     document.getElementById('selected-race').innerText = localStorage.getItem('selectedRace');
@@ -20,6 +21,7 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
     document.getElementById('caminhos-pontos-pericia').innerText = localStorage.getItem('caminhosPontosPericia');
     document.getElementById('selected-classe').innerText = localStorage.getItem('saveClasse');
     document.getElementById('selected-passado').innerText = savePassado;
+	document.getElementById('selected-categoria').innerText = saveCaracteristica;
 
 	let selectedCaminhoData;
 
@@ -205,10 +207,20 @@ function drop(event) {
             // Check the number of items already dropped in dropbox-primarias
             const primariasContainer = document.getElementById('dropbox-primarias');
             const primariasItems = primariasContainer.querySelectorAll('.drop-item');
-            if (primariasItems.length >= 2) {
-                alert("Você só pode ter no máximo 2 perícias primárias.");
-                return; // Exit if maximum limit reached
-            }
+            if (saveCaracteristica == "Sabe-Tudo")
+			{
+				if (primariasItems.length >= 1)
+				{
+					alert("Você só pode ter no máximo 1 perícias primárias.");
+					return; // Exit if maximum limit reached
+				}
+			}
+			else {
+				if (primariasItems.length >= 2) {
+					alert("Você só pode ter no máximo 2 perícias primárias.");
+					return; // Exit if maximum limit reached
+				}
+			}
             break;
         case 'dropbox-terciarias':
             costMultiplier = 1;
@@ -326,6 +338,7 @@ document.getElementById('caminhos-pontos-pericia').innerText = caminhosPontosPer
     localStorage.setItem('saveReflexo', saveReflexo);
     localStorage.setItem('saveVontade', saveVontade);
     localStorage.setItem('savePassado', savePassado);
+	localStorage.setItem('saveCaracteristica', saveCaracteristica);
 
     // Save perícias from dropboxes
     const periciasPrimarias = [];
