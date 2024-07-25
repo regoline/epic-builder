@@ -113,7 +113,7 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
 			localStorage.setItem('savePassadoSkill', savePassadoSkill);
 			
 			
-			window.location.href = 'pericias.html';
+			window.location.href = 'caracteristicas.html';
 		}
 		function goBack() {
 		  window.history.back();
