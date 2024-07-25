@@ -9,6 +9,7 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
     let caminhosPontosPericia = localStorage.getItem('caminhosPontosPericia');
     let saveClasse = localStorage.getItem('saveClasse');
     let savePassado = localStorage.getItem('savePassado');
+	let saveCaracteristica = localStorage.getItem('saveCaracteristica');
 
 	document.getElementById('raceImage').src = `img/racas/${raceImage}.jpg`;
     document.getElementById('selected-origin').innerText = localStorage.getItem('selectedOrigin');
@@ -20,6 +21,7 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
     document.getElementById('save-vontade').innerText = localStorage.getItem('saveVontade');
     document.getElementById('selected-classe').innerText = localStorage.getItem('saveClasse');
 	document.getElementById('selected-passado').innerText = localStorage.getItem('savePassado');
+	document.getElementById('selected-caracteristica').innerText = localStorage.getItem('saveCaracteristica');
 	
 	fetch("../json/caminhos.json")
             .then((response) => response.json())
