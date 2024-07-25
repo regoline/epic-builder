@@ -9,7 +9,7 @@ let caminhosPontosPericia = parseInt(localStorage.getItem('caminhosPontosPericia
 const saveClasse = localStorage.getItem('saveClasse');
 const savePassado = localStorage.getItem('savePassado');
 const savePassadoSkill = localStorage.getItem('savePassadoSkill');
-let selectedCaracteristica = localStorage.getItem('saveCaracteristica'); // Make sure to retrieve this correctly
+let selectedCaracteristica;
 
 document.getElementById('selected-origin').innerText = selectedOrigin;
 document.getElementById('selected-race').innerText = selectedRace;
@@ -54,17 +54,16 @@ fetch("../json/caracteristicas.json")
                 `;
 
                 caracteristicaBox.addEventListener("click", () => {
-                    // Deduct 5 points if "Sabe-Tudo" was previously selected
-                    if (selectedCaracteristica === "Sabe-Tudo") {
+                    const previouslySelectedIsSabeTudo = selectedCaracteristica === "Sabe-Tudo";
+                    const clickedIsSabeTudo = caracteristica.name === "Sabe-Tudo";
+
+                    if (previouslySelectedIsSabeTudo && !clickedIsSabeTudo) {
                         caminhosPontosPericia -= 5;
+                    } else if (!previouslySelectedIsSabeTudo && clickedIsSabeTudo) {
+                        caminhosPontosPericia += 5;
                     }
 
                     selectedCaracteristica = caracteristica.name;
-
-                    // Add 5 points if "Sabe-Tudo" is selected
-                    if (selectedCaracteristica === "Sabe-Tudo") {
-                        caminhosPontosPericia += 5;
-                    }
 
                     // Update the displayed value
                     document.getElementById('caminhos-pontos-pericia').innerText = caminhosPontosPericia;
