@@ -78,3 +78,23 @@ body {
     cursor: pointer;
     color: red;
 }
+.caracteristica-box {
+    border: 1px solid #ccc;
+    padding: 0px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.caracteristica-box:hover {
+    background-color: #f0f0f0;
+}
+
+.caracteristica-name {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.caracteristica-vantagem,
+.caracteristica-desvantagem {
+    margin-bottom: 0px;
+}
