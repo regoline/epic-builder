@@ -7,7 +7,7 @@
 		"skill": "Domestic Work",
 		"skill_custo": "1",
 		"exclusividade": [ "" ],
-		"imagem": "mestre_lar.gif"
+		"imagem": "mestre_lar.png"
 	},
 	{
 		"name": "Ferreiro Aprendiz",
@@ -16,7 +16,7 @@
 		"skill": "Metal Working",
 		"skill_custo": "1",
 		"exclusividade": [ "" ],
-		"imagem": "ferreiro_aprendiz.gif"
+		"imagem": "ferreiro_aprendiz.png"
 	},
 	{
 		"name": "Coletor",
@@ -25,7 +25,7 @@
 		"skill": "Gathering",
 		"skill_custo": "1",
 		"exclusividade": [ "" ],
-		"imagem": "coletor.gif"
+		"imagem": "coletor.png"
 	},
 	{
 		"name": "Rato de Rua",
@@ -34,7 +34,7 @@
 		"skill": "Pickpocketing",
 		"skill_custo": "1",
 		"exclusividade": [ "" ],
-		"imagem": "rato_rua.gif"
+		"imagem": "rato_rua.png"
 	},
 	{
 		"name": "Aventureiro",
@@ -43,7 +43,7 @@
 		"skill": "Mechanics",
 		"skill_custo": "1",
 		"exclusividade": [ "" ],
-		"imagem": "aventureiro.gif"
+		"imagem": "aventureiro.png"
 	},
 	{
 		"name": "Caçador",
@@ -52,7 +52,7 @@
 		"skill": "Survival",
 		"skill_custo": "1",
 		"exclusividade": [ "" ],
-		"imagem": "cacador.gif"
+		"imagem": "cacador.png"
 	},
 	{
 		"name": "Curandeiro",
@@ -61,7 +61,7 @@
 		"skill": "Medicine",
 		"skill_custo": "1",
 		"exclusividade": [ "" ],
-		"imagem": "curandeiro.gif"
+		"imagem": "curandeiro.png"
 	},
 	{
 		"name": "Marceneiro",
@@ -70,7 +70,7 @@
 		"skill": "Wood Working",
 		"skill_custo": "1",
 		"exclusividade": [ "" ],
-		"imagem": "marceneiro.gif"
+		"imagem": "marceneiro.png"
 	},
 	{
 		"name": "Véu de Idrith",
@@ -79,7 +79,7 @@
 		"skill": "Awareness",
 		"skill_custo": "1",
 		"exclusividade": [ "Har’oloth" ],
-		"imagem": "veu_de_idrith.gif"
+		"imagem": "veu_de_idrith.png"
 	},
 	{
 		"name": "Pés Leves",
@@ -88,7 +88,7 @@
 		"skill": "Sneak",
 		"skill_custo": "1",
 		"exclusividade": [ "Polkinea" ],
-		"imagem": "pes_leves.gif"
+		"imagem": "pes_leves.png"
 	},
 	{
 		"name": "Templo da Mente",
@@ -97,7 +97,7 @@
 		"skill": "Magic Lore",
 		"skill_custo": "1",
 		"exclusividade": [ "Alüriel" ],
-		"imagem": "templo_mente.gif"
+		"imagem": "templo_mente.png"
 	},
 	{
 		"name": "Escaramuçador",
@@ -106,7 +106,7 @@
 		"skill": "Ranged",
 		"skill_custo": "1",
 		"exclusividade": [ "Björske" ],
-		"imagem": "escaramucador.gif"
+		"imagem": "escaramucador.png"
 	},
 	{
 		"name": "Brutamontes",
@@ -115,7 +115,7 @@
 		"skill": "Tactics",
 		"skill_custo": "1",
 		"exclusividade": [ "Gulthrak" ],
-		"imagem": "brutamontes.gif"
+		"imagem": "brutamontes.png"
 	},
 	{
 		"name": "Filho do Progresso",
@@ -124,7 +124,7 @@
 		"skill": "Alchemy",
 		"skill_custo": "1",
 		"exclusividade": [ "Badûran" ],
-		"imagem": "filho_progresso.gif"
+		"imagem": "filho_progresso.png"
 	},
 	{
 		"name": "Andarilho",
@@ -133,7 +133,7 @@
 		"skill": "One Handed",
 		"skill_custo": "1",
 		"exclusividade": [ "Povos do Leste" ],
-		"imagem": "andarilho.gif"
+		"imagem": "andarilho.png"
 	},
 	{
 		"name": "Legionário",
@@ -142,7 +142,7 @@
 		"skill": "Parry",
 		"skill_custo": "1",
 		"exclusividade": [ "Aiglanos" ],
-		"imagem": "legionario.gif"
+		"imagem": "legionario.png"
 	},
 	{
 		"name": "Aliança Natural",
@@ -151,7 +151,7 @@
 		"skill": "Handle Animal",
 		"skill_custo": "1",
 		"exclusividade": [ "Alüriel" ],
-		"imagem": "alianca_natural.gif"
+		"imagem": "alianca_natural.png"
 	}
 	]
 }
