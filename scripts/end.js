@@ -11,7 +11,7 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
     let savePassado = localStorage.getItem('savePassado');
 	let saveCaracteristica = localStorage.getItem('saveCaracteristica');
 
-	document.getElementById('raceImage').src = `img/racas/${raceImage}.jpg`;
+	document.getElementById('raceImage').src = `img/racas/${raceImage}.png`;
     document.getElementById('selected-origin').innerText = localStorage.getItem('selectedOrigin');
     document.getElementById('selected-race').innerText = localStorage.getItem('selectedRace');
     document.getElementById('selected-caminho').innerText = localStorage.getItem('selectedCaminho');
