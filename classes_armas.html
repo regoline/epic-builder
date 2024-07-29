@@ -3,41 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EPIC! Build Builder alpha 0.1</title>
+    <title>EPIC Builder</title>
 	<link rel="stylesheet" href="styles.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body style="background-color: black;">
-	<br>
-	<br>
-	
-	<div class = "container">
-		<div class = "row">
-			<div class="col-12" style="background-color: #373A40;"><a href="index.html"><img src="img/logo.png"></a></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12" style="background-color: #373A40;">
+                <a href="index.html"><img src="img/logo.png" class="img-fluid"></a>
+            </div>
 		</div>
 	</div>
 	
 	<div class = "container">
 		<div class = "row">
-			<div class="col-2"><h1>Classes</h1></div>
-			<div class="col-2"></div>
-			<div class="col-6"><h1>Descrição</h1></div>
-			<div class="col-2" style="background-color: #ff7f00;">
+			<div class="col-md-2 col-12"><h1>Classes</h1>
+			<div id="classes-container" align="justify"></div>
+			</div>
+			<div class="col-md-2 col-12">
+				<img id="classe-image" src="" class="img-fluid" style="overflow: hidden; max-width: 100%; max-height: 100%;" />
+			</div>
+			<div class="col-md-6 col-12"><h1>Descrição</h1>
+			 <div id="description-container" style="text-align: justify;"></div>
+			</div>
+			<div class="col-md-2 col-12" style="background-color: #ff7f00;">
 				<h1><font color="white">Resumo</font></h1>
-			</div>
-		</div>
-		
-		<div class="row">		
-			<div class="col-2" id="classes-container" align="justify"></div>	
-			<div class="col-2">		
-				<img id="classe-image" src=""  style="overflow: hidden; max-width: 100%; max-height: 100%;" />
-			</div>
-			<div class="col-6" id="description-container" style="text-align: justify;">
-				<br>	
-			</div>
-			
-			<div class="col-2" style="background-color: #0f0f0f;">
 				<font color="white"><br><b>Você selecionou:</b><br><br> 
 				<b>Cultura:</b> <span id="selected-origin" color="white"></span><br>
 				<b>Raça:</b> <span id="selected-race" color="white"></span><br>
@@ -49,12 +41,14 @@
 				<b>Vontade:</b> <span id="save-vontade" align="justify"></span><br>
 				<b>Classe:</b> <span id="selected-classe" style="color: white;"></span><br>
 				<br>
-				<button onclick="goBack()" style="background-color: lightred;">Voltar</button>
-				<button onclick="saveSelection()" style="background-color: lightblue;">Próximo</button></font>
+				<button onclick="goBack()" class="btn btn-danger">Voltar</button>
+				<button onclick="saveSelection()" class="btn btn-primary" style="background-color: black; border-color: black; color: white;">Próximo</button></font>
 				<br>
 				<br>	
-			</div>	
+			</div>
 		</div>
+		
+		
 	</div>
 	
 	<div class = "container">
@@ -70,38 +64,42 @@
 			<div class="col-1" style="background-color: lightgray;"><b><center>Custo</center></b></div>
 			<div class="col-1" style="background-color: lightgray;"><b><center>Cooldown</center></b></div>
 			<div class="col-6" style="background-color: lightgray;"><b><center>Descrição</center></b></div>
+			<div class="habilidade-row" id="habilidades-row"></div>
 		</div>
 		
-		<div class="habilidade-row" id="habilidades-row"></div>
+		
 		
 	</div>
-	<div class = "container">
-		<div class = "row">
-			<div class="col-12" style="background-color: #373A40;"> </div>
-		</div>
-		<div class = "row">
-				<div class="col-2" style="background-color: #373A40; text-align: left"><font color="white">| <i class="fa-solid fa-house"></i> <a href="index.html" style="color: #ff7f00; text-decoration: none;"><b> Início</b></a> 
-				<br>| <i class="fa-brands fa-github"></i> <a href="https://github.com/regoline/epic-builder" style="color: white; text-decoration: none;" target="blank_" > Github</a> 
-				<br>| <i class="fas fa-code-branch"></i> <a href="https://github.com/regoline/epic-builder/issues" style="color: white; text-decoration: none;" target="blank_" > Bugs</a>  
-				
-				 </font></div>
-				<div class="col-2" style="background-color: #373A40; text-align: left"><font color="white"></font></div>
-				<div class="col-2" style="background-color: #373A40; text-align: left"><font color="white"> </font></div>
-				<div class="col-2" style="background-color: #373A40;"></div>
-				<div class="col-2" style="background-color: #373A40;"><a href="https://epic-shard.com" style="color: white; text-decoration: none;" target="_blank"><img src="img/logo_epic.png" align="right"></a></div>
-				
-				
-				<div class="col-2" style="background-color: #373A40; text-align: left"><font color="white">| <i class="fa-solid fa-link"></i> <a href="https://epic-shard.com" style="color: white; text-decoration: none;" target="_blank"><b>epic-shard.com</b><br>
-				| <i class="fa-brands fa-discord"></i> <a href="https://discord.gg/5raYNQQtG2" style="color: white; text-decoration: none;" target="_blank">Discord</a><br>
-				| <i class="fa-solid fa-book"></i> <a href="https://homebrewery.naturalcrit.com/share/aNJcG_QgiyGt" style="color: white; text-decoration: none;" target="_blank">Livro do Jogador</a><br>
-				</font></div>		
-		</div>
-		<div class = "row">
-			<div class="col-12" style="background-color: #373A40;"> </div>
-		</div>
-	</div>
-	<br>
-	<br>
+	 <div class="container">
+        <div class="row">
+            <div class="col-12" style="background-color: #373A40;"> </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-sm-12" style="background-color: #373A40; text-align: left">
+                <font color="white">| <i class="fa-solid fa-house"></i> <a href="index.html" style="color: #ff7f00; text-decoration: none;"><b> Início</b></a> 
+                <br>| <i class="fa-brands fa-github"></i> <a href="https://github.com/regoline/epic-builder" style="color: white; text-decoration: none;" target="blank_" > Github</a> 
+                <br>| <i class="fas fa-code-branch"></i> <a href="https://github.com/regoline/epic-builder/issues" style="color: white; text-decoration: none;" target="blank_" > Bugs</a>  
+                </font>
+            </div>
+            <div class="col-md-2 col-sm-12" style="background-color: #373A40; text-align: left"><font color="white"></font></div>
+            <div class="col-md-2 col-sm-12" style="background-color: #373A40; text-align: left"><font color="white"> </font></div>
+            <div class="col-md-2 col-sm-12" style="background-color: #373A40;"></div>
+            <div class="col-md-2 col-sm-12" style="background-color: #373A40;">
+                <a href="https://epic-shard.com" style="color: white; text-decoration: none;" target="_blank">
+                    <img src="img/logo_epic.png" class="img-fluid" align="right">
+                </a>
+            </div>
+            <div class="col-md-2 col-sm-12" style="background-color: #373A40; text-align: left">
+                <font color="white">| <i class="fa-solid fa-link"></i> <a href="https://epic-shard.com" style="color: white; text-decoration: none;" target="_blank"><b>epic-shard.com</b></a><br>
+                | <i class="fa-brands fa-discord"></i> <a href="https://discord.gg/5raYNQQtG2" style="color: white; text-decoration: none;" target="_blank">Discord</a><br>
+                | <i class="fa-solid fa-book"></i> <a href="https://homebrewery.naturalcrit.com/share/aNJcG_QgiyGt" style="color: white; text-decoration: none;" target="_blank">Livro do Jogador</a><br>
+                </font>
+            </div>        
+        </div>
+        <div class="row">
+            <div class="col-12" style="background-color: #373A40;"> </div>
+        </div>
+    </div>
 	<script src="scripts/classes_armas.js"></script>
 </body>
 </html>
