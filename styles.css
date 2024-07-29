@@ -98,5 +98,17 @@ body {
 .caracteristica-desvantagem {
     margin-bottom: 0px;
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    /* Add other mobile-specific styles here */
+}
+
 
 
