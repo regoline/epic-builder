@@ -86,7 +86,7 @@
 			"description": "Sua postura favorece a defesa, mas prejudica o ataque."
 		},
 		{
-			"name": "Postura Ofensicva",
+			"name": "Postura Ofensiva",
 			"level": 0,
 			"tipo": "Passiva",
 			"custo": "-",
@@ -107,7 +107,7 @@
 			"tipo": "Passiva",
 			"custo": "-",
 			"cooldown": "-",
-			"description": "Você tem facilidade natural de tocar musicas, podendo ler inclusive partituras magicas."
+			"description": "Você tem facilidade natural de tocar músicas, podendo ler inclusive partituras mágicas."
 		},
 		{
 			"name": "Brigador de Taverna",
@@ -131,7 +131,7 @@
 			"tipo": "Passiva",
 			"custo": "-",
 			"cooldown": "-",
-			"description": "Com um golpe rapido, voce derruba seu oponente de sua montaria, que fica impossibilitado de montar por um tempo e ainda pode se machucar na queda."
+			"description": "Com um golpe rápido, voce derruba seu oponente de sua montaria, que fica impossibilitado de montar por um tempo e ainda pode se machucar na queda."
 		},
 		{
 			"name": "Recuperação",

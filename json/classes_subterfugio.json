@@ -454,7 +454,7 @@
 			"tipo": "Ativa",
 			"custo": "10 Stamina + 20 Mana",
 			"cooldown": "180s",
-			"description": "Você se conecta com sua natureza sombria, se camuflando completamente com as sombras em um tempo baseado no seu Magic Lore. Ao deixar a forma invisível, caso o dançarino esteja na escuridão, ele assume uma forma borrada, tornando difícil para seus oponentes acertá-lo."
+			"description": "Você se conecta com sua natureza sombria, se camuflando completamente com as sombras em um tempo baseado no seu Magic Lore.\nAo deixar a forma invisível, caso o dançarino esteja na escuridão, ele assume uma forma borrada, tornando difícil para seus oponentes acertá-lo."
 		},
 		{
 			"name": "Dança da Morte",

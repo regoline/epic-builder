@@ -52,6 +52,14 @@
 			"name": "Penetrar Armadura",
 			"level": 12,
 			"tipo": "Ativa",
+			"custo": "10 Stamina",
+			"cooldown": "100s",
+			"description": "Seu próximo disparo irá ignorar parte da armadura do alvo."
+		},
+		{
+			"name": "Tiro Certeiro",
+			"level": 12,
+			"tipo": "Ativa",
 			"custo": "15 Stamina",
 			"cooldown": "120s",
 			"description": "Seu próximo disparo terá uma precisão absurda."
@@ -67,140 +75,44 @@
 		"description": "Guerreiros que são tomados por uma ira incessante em meio ao combate, valendo-se de armas corpo-a-corpo e desprovidos de armaduras. São capazes de despertar a fúria interior, tornando-se ainda mais agressivos e mortais.",
 		"habilidades": [
 		{
-			"name": "Fúria de Almak",
+			"name": "Fúria",
 			"level": 4,
-			"tipo": "Passiva",
-			"custo": "-",
-			"cooldown": "-",
-			"description": "Você fica em fúria mais facilmente que outros Thuriões."
-		},
-		{
-			"name": "Pele de Rocha",
-			"level": 6,
-			"tipo": "Passiva",
-			"custo": "-",
-			"cooldown": "-",
-			"description": "Quando em fúria o Berserker ignora a dor de golpes recebidos ganhando um bônus na resistência física. 30 de AR sem fúria e 60 de AR quando ativada a fúria."
-		},
-		{
-			"name": "Fúria Primordial",
-			"level": 6,
 			"tipo": "Ativa",
-			"custo": "10 Stamina",
+			"custo": "15 Stamina",
 			"cooldown": "120s",
-			"description": "Você ganha bônus no dano em desvantagem numérica."
+			"description": "Você entra num estado de fúria, cuja duração é tactics em segundos, o dano adicional é baseado no seu tactics."
 		},
 		{
-			"name": "Ignorar Defesas",
+			"name": "Resiliência Bárbara",
 			"level": 6,
 			"tipo": "Ativa",
 			"custo": "15 Stamina",
-			"cooldown": "90s",
-			"description": "Você encontra um ponto fraco na defesa do seu adversário. Seu próximo golpe será mais efetivo."
+			"cooldown": "120s",
+			"description": "Você ignora a dor de golpes recebidos ganhando um bônus na resistência física. Ativamente, recupera HP por um período."
 		},
 		{
-			"name": "Recuperação Aligera",
-			"level": 8,
-			"tipo": "Ativa",
-			"custo": "20 Stamina",
-			"cooldown": "300s",
-			"description": "Você consegue se recuperar rapidamente quando está em fúria."
-		},
-		{
-			"name": "Fúria da Derrota",
+			"name": "Fúria Indomável",
 			"level": 8,
 			"tipo": "Passiva",
 			"custo": "-",
 			"cooldown": "-",
-			"description": "Acerte um crítico automático quando o adversário desmaiar você."
+			"description": "Você aterroriza seus inimigos, tirando chance de acerto deles e fica imune a criticos, paralisia e usa fortitude como vontade para resistir diversas magias."
 		},
 		{
-			"name": "Vontade Indomável",
-			"level": 8,
-			"tipo": "Ativa",
-			"custo": "10 Stamina",
-			"cooldown": "240s",
-			"description": "Você fica imune a críticos, paralisia e diversas magias."
-		},
-		{
-			"name": "Jurado de Morte",
-			"level": 8,
-			"tipo": "Ativa",
-			"custo": "10 Stamina",
-			"cooldown": "300s",
-			"description": "Caso sofra um golpe fatal lutando contra o inimigo marcado, você utilizará suas últimas forças para cumprir sua palavra. Se o inimigo for derrubado, você se revigora."
-		},
-		{
-			"name": "Fúria Imortal",
-			"level": 10,
-			"tipo": "Passiva",
-			"custo": "-",
-			"cooldown": "-",
-			"description": "Você consegue se manter vivo apenas com a força do seu ódio. Quando estiver em fúria e receber um golpe fatal, você permanecerá em pé lutando por alguns segundos."
-		},
-		{
-			"name": "Sangue Grosso",
-			"level": 10,
-			"tipo": "Passiva",
-			"custo": "-",
-			"cooldown": "-",
-			"description": "O sangue custa a se esvair de seu corpo, fazendo-o durar mais durante uma batalha e diminuirá o limiar da fúria, fazendo-o entrar em fúria com mais pontos de vida."
-		},
-		{
-			"name": "Irrefreável",
+			"name": "Fúria Implacável",
 			"level": 10,
 			"tipo": "Ativa",
-			"custo": "40 Stamina",
-			"cooldown": "300s",
-			"description": "Você ganha 60 pontos de vida extras, para passar por cima de tudo sem nada para impedi-lo."
+			"custo": "25 Stamina",
+			"cooldown": "120s",
+			"description": "Quando em fúria você causa danos massivos em todos ao redor, mas parte volta para você."
 		},
 		{
-			"name": "Aterrorizar",
-			"level": 10,
-			"tipo": "Ativa",
-			"custo": "10 Stamina",
-			"cooldown": "300s",
-			"description": "Quando em fúria você causa medo nos seus adversários, reduzindo a capacidade de defender deles."
-		},
-		{
-			"name": "Violência Implacável",
-			"level": 10,
-			"tipo": "Ativa",
-			"custo": "10 Stamina",
-			"cooldown": "60s",
-			"description": "Quando em fúria você causa danos massivos em todos ao redor, mas parte volta para voce."
-		},
-		{
-			"name": "Fúria Mortal",
-			"level": 12,
-			"tipo": "Ativa",
-			"custo": "10 Stamina",
-			"cooldown": "300s",
-			"description": "Quanto mais próximo da morte, maiores serão seus danos."
-		},
-		{
-			"name": "Ferocidade Ensanguentada",
-			"level":12,
-			"tipo": "Ativa",
-			"custo": "10 Stamina",
-			"cooldown": "240s",
-			"description": "Sempre que você for atingido enquanto estiver em fúria, dará um ataque de oportunidade."
-		},
-		{
-			"name": "Ataques Enlouquecidos",
-			"level": 12,
-			"tipo": "Ativa",
-			"custo": "10 Stamina",
-			"cooldown": "240s",
-			"description": "Você acerta seus ataques, mas seus adversários tambem."
-		},
-		{
-			"name": "Golpe de Misericórdia",
+			"name": "Destruidor",
 			"level": 12,
 			"tipo": "Passiva",
 			"custo": "-",
 			"cooldown": "-",
-			"description": "Você não perdoa os inimigos quando eles estão gravemente feridos."
+			"description": "Você causa ainda mais dano em fúria, sua chance de crítico também aumenta."
 		}
 		]
 		
@@ -539,7 +451,7 @@
 			"tipo": "Ativa",
 			"custo": "15 Stamina",
 			"cooldown": "120s",
-			"description": "Quando em fúria você causa danos massivos em todos ao redor, mas parte volta para voce. Quanto mais ferido, mais dano você causa."
+			"description": "Quando em fúria você causa danos massivos em todos ao redor, mas parte volta para você. Quanto mais ferido, mais dano você causa."
 		},
 		{
 			"name": "Ghâshburz",
@@ -547,7 +459,7 @@
 			"tipo": "Ativa",
 			"custo": "15 Stamina",
 			"cooldown": "120s",
-			"description": "Você ganha bonus em dano e acerto em desvantagem numérica."
+			"description": "Você ganha bônus em dano e acerto em desvantagem numérica."
 		},
 		{
 			"name": "Shar Krith",
@@ -555,7 +467,7 @@
 			"tipo": "Ativa",
 			"custo": "15 Stamina",
 			"cooldown": "120s",
-			"description": ""
+			"description": "Quando você desmaiar, acerta um crítico. Se o oponente cair, você levanta."
 		},
 		{
 			"name": "Nazg Gûl",
