@@ -177,7 +177,7 @@
 		"caminho": "Caminho da Sabedoria",
 		"imagem": "druida.png",
 		"id_classe": "druida",
-		"exclusividade": [ "" ],
+		"exclusividade": [ "Aiglanos", "Povos do Leste", "Björske", "Alüriel", "Polkinea", "Badûran", "Gulthrak" ],
 		"description": "Os Druidas são guardiões da natureza, mestres das magias Aradalorë que amplificam os efeitos druídicos para proteger e nutrir a vida selvagem. Com uma profunda conexão ao mundo natural, eles possuem a habilidade de se transformar em seres da floresta, adotando formas animais para combater ameaças ou se mover furtivamente. Seja invocando tempestades, curando aliados ou assumindo a forma de um lobo ou águia, os Druidas são versáteis e poderosos defensores do equilíbrio natural.",
 		"habilidades": [
 		{
