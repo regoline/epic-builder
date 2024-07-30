@@ -179,12 +179,12 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
 				habilidadesRow.innerHTML = ''; // Limpa conteúdo anterior
 
 				habilidades.forEach((habilidade) => {
-					const habilidadeColNome = createColumn(habilidade.name, "col-2");
-					const habilidadeColLevel = createColumn(habilidade.level, "col-1");
-					const habilidadeColTipo = createColumn(habilidade.tipo, "col-1");
-					const habilidadeColCusto = createColumn(habilidade.custo, "col-1");
-					const habilidadeColCooldown = createColumn(habilidade.cooldown, "col-1");
-					const habilidadeColDescricao = createColumn(habilidade.description, "col-6");
+					const habilidadeColNome = createColumn(habilidade.name, "col-2 text-center");
+					const habilidadeColLevel = createColumn(habilidade.level, "col-1 text-center");
+					const habilidadeColTipo = createColumn(habilidade.tipo, "col-1 text-center");
+					const habilidadeColCusto = createColumn(habilidade.custo, "col-1 text-center");
+					const habilidadeColCooldown = createColumn(habilidade.cooldown, "col-1 text-center");
+					const habilidadeColDescricao = createColumn(habilidade.description, "col-6 habilidade-descricao-justify");
 
 					const habilidadeRow = document.createElement("div");
 					habilidadeRow.classList.add("row", "habilidade-row");
@@ -202,11 +202,8 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
 
 			function createColumn(content, columnClass) {
 				const column = document.createElement("div");
-				column.classList.add(columnClass, "habilidade-col", "text-center");
-
-				
-				column.textContent = content;
-
+				column.classList.add(...columnClass.split(' '));
+				column.innerHTML = content;
 				return column;
 			}
 			

@@ -10,6 +10,7 @@ const saveClasse = localStorage.getItem('saveClasse');
 const savePassado = localStorage.getItem('savePassado');
 const savePassadoSkill = localStorage.getItem('savePassadoSkill');
 let selectedCaracteristica;
+let previouslySelectedElement;
 
 document.getElementById('selected-origin').innerText = selectedOrigin;
 document.getElementById('selected-race').innerText = selectedRace;
@@ -35,6 +36,8 @@ fetch("../json/caracteristicas.json")
             );
         });
 
+        let firstCaracteristicaBox = null; // Variable to store the first characteristic box
+
         // Split characteristics into rows of three
         for (let i = 0; i < filteredCaracteristicas.length; i += 3) {
             const row = document.createElement("div");
@@ -53,6 +56,11 @@ fetch("../json/caracteristicas.json")
                     <div class="caracteristica-desvantagem">${caracteristica.desvantagem}</div>
                 `;
 
+                // Track the first characteristic box
+                if (firstCaracteristicaBox === null) {
+                    firstCaracteristicaBox = caracteristicaBox;
+                }
+
                 caracteristicaBox.addEventListener("click", () => {
                     const previouslySelectedIsSabeTudo = selectedCaracteristica === "Sabe-Tudo";
                     const clickedIsSabeTudo = caracteristica.name === "Sabe-Tudo";
@@ -65,6 +73,13 @@ fetch("../json/caracteristicas.json")
 
                     selectedCaracteristica = caracteristica.name;
 
+                    // Highlight the selected box and remove highlight from the previously selected box
+                    if (previouslySelectedElement) {
+                        previouslySelectedElement.classList.remove('selected-caracteristica');
+                    }
+                    caracteristicaBox.classList.add('selected-caracteristica');
+                    previouslySelectedElement = caracteristicaBox;
+
                     // Update the displayed value
                     document.getElementById('caminhos-pontos-pericia').innerText = caminhosPontosPericia;
                     document.getElementById('selected-caracteristica').innerText = selectedCaracteristica;
@@ -74,6 +89,15 @@ fetch("../json/caracteristicas.json")
             }
 
             caracteristicasContainer.appendChild(row);
+        }
+
+        // Set default selection if no characteristic is selected
+        if (!selectedCaracteristica && firstCaracteristicaBox) {
+            selectedCaracteristica = firstCaracteristicaBox.querySelector('.caracteristica-name').innerText;
+            firstCaracteristicaBox.classList.add('selected-caracteristica');
+            previouslySelectedElement = firstCaracteristicaBox;
+            document.getElementById('caminhos-pontos-pericia').innerText = caminhosPontosPericia;
+            document.getElementById('selected-caracteristica').innerText = selectedCaracteristica;
         }
     })
     .catch((error) => {

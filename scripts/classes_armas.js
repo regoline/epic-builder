@@ -22,7 +22,7 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
             .then((data) => {
                 // Selecione o container onde os botões de rádio serão exibidos
                 const classesContainer = document.getElementById("classes-container"); // Seleciona os povos
-                const descriptionContainer = document.getElementById("description-container"); // Seleciona a descrição
+                const descriptionContainer = document.getElementById("description-container");
                 const classeImage = document.getElementById("classe-image"); // Seleciona a imagem
 				const habilidadeNome = document.getElementById("hab_nome");
 				const habilidadeLevel = document.getElementById("hab_level");
@@ -56,7 +56,7 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
                     if (index === 0) {
                         radioInput.checked = true;
                         // Exibe a descrição e a imagem do primeiro povo por padrão
-                        descriptionContainer.textContent = classe.description;
+                        descriptionContainer.innerHTML = classe.description.replace(/\n/g, '<br>');
                         classeImage.src = `img/classes/armas/${classe.imagem}`;
 						setTimeout(() => {
 							radioInput.dispatchEvent(new Event("change"));
@@ -70,7 +70,7 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
 						outputElement.innerHTML = selectedClasse.name;
 						
                         // Exiba a descrição no container
-                        descriptionContainer.textContent = selectedClasse.description;
+                        descriptionContainer.innerHTML = selectedClasse.description.replace(/\n/g, '<br>');
                         // Atualize a imagem com o caminho correto
                         classeImage.src = `img/classes/armas/${selectedClasse.imagem}`;
 						displayHabilidades(selectedClasse.habilidades);
@@ -86,12 +86,12 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
 				habilidadesRow.innerHTML = ''; // Limpa conteúdo anterior
 
 				habilidades.forEach((habilidade) => {
-					const habilidadeColNome = createColumn(habilidade.name, "col-2");
-					const habilidadeColLevel = createColumn(habilidade.level, "col-1");
-					const habilidadeColTipo = createColumn(habilidade.tipo, "col-1");
-					const habilidadeColCusto = createColumn(habilidade.custo, "col-1");
-					const habilidadeColCooldown = createColumn(habilidade.cooldown, "col-1");
-					const habilidadeColDescricao = createColumn(habilidade.description, "col-6");
+					const habilidadeColNome = createColumn(habilidade.name, "col-2 text-center");
+					const habilidadeColLevel = createColumn(habilidade.level, "col-1 text-center");
+					const habilidadeColTipo = createColumn(habilidade.tipo, "col-1 text-center");
+					const habilidadeColCusto = createColumn(habilidade.custo, "col-1 text-center");
+					const habilidadeColCooldown = createColumn(habilidade.cooldown, "col-1 text-center");
+					const habilidadeColDescricao = createColumn(habilidade.description.replace(/\n/g, '<br>'), "col-6 habilidade-descricao-justify");
 
 					const habilidadeRow = document.createElement("div");
 					habilidadeRow.classList.add("row", "habilidade-row");
@@ -108,14 +108,12 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
 			}
 
 		function createColumn(content, columnClass) {
-				const column = document.createElement("div");
-				column.classList.add(columnClass, "habilidade-col", "text-center");
-
-				
-				column.textContent = content;
-
-				return column;
+			const column = document.createElement("div");
+			column.classList.add(...columnClass.split(' '));
+			column.innerHTML = content;
+			return column;
 		}
+
 		
 		function saveSelection() 
 		{
