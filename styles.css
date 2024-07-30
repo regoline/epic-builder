@@ -11,6 +11,11 @@ body {
     margin-bottom: 0px; /* Added margin-bottom for spacing between sections */
 	overflow: hidden;
 }
+.container-fluid {
+    background-color: white;
+    padding: 0; /* Removed padding to ensure full width */
+    margin-bottom: 0; /* Adjusted margin-bottom for spacing between sections */
+}
 
 .row {
     margin-bottom: 0px; /* Added margin-bottom for spacing between rows */
