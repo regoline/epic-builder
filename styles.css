@@ -109,6 +109,8 @@ body {
 
     /* Add other mobile-specific styles here */
 }
-
+.selected-caracteristica {
+    background-color: lightgrey;
+}
 
 
