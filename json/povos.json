@@ -73,7 +73,7 @@
 				"name": "Anão",
 				"id_raca": "anao",
 				"description": "Os anões são conhecidos por sua resistência e habilidade em mineração e metalurgia. Vivem em grandes cidades subterrâneas, construídas em montanhas e cavernas. São guerreiros robustos e têm um grande apreço por honra e tradição.",
-				"vantagem1": "Algum Título: +10 STR",
+				"vantagem1": "Força Bruta: +10 STR",
 				"vantagem2": "Constituição Anã: Anões são mais resistentes a magia naturalmente.",
 				"idade": "Anões perdem 1 DP a cada 45 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
 				"imagem": "raca_anao.png"
@@ -203,7 +203,7 @@
 				"name": "Anão",
 				"id_raca": "anao",
 				"description": "Os anões são conhecidos por sua resistência e habilidade em mineração e metalurgia. Vivem em grandes cidades subterrâneas, construídas em montanhas e cavernas. São guerreiros robustos e têm um grande apreço por honra e tradição.",
-				"vantagem1": "Algum Título: +10 STR",
+				"vantagem1": "Força Bruta: +10 STR",
 				"vantagem2": "Constituição Anã: Anões são mais resistentes a magia naturalmente.",
 				"idade": "Anões perdem 1 DP a cada 45 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
 				"imagem": "raca_anao.png"
