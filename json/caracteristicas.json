@@ -8,7 +8,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "corpulento.gif"
+		"imagem": "corpulento.gif",
+		"bonus_str": 20,
+		"bonus_int": -5,
+		"bonus_dex": -5,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Ágil",
@@ -18,7 +27,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "agil.gif"
+		"imagem": "agil.gif",
+		"bonus_str": -5,
+		"bonus_int": -5,
+		"bonus_dex": 20,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Gênio",
@@ -28,7 +46,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "genio.gif"
+		"imagem": "genio.gif",
+		"bonus_str": -5,
+		"bonus_int": 20,
+		"bonus_dex": -5,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Afogado em Mana",
@@ -38,7 +65,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "Caminho da Sabedoria" ],
-		"imagem": "afogado_mana.gif"
+		"imagem": "afogado_mana.gif",
+		"bonus_str": -10,
+		"bonus_int": 0,
+		"bonus_dex": -10,
+		"bonus_mana": 40,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Fortitude do Urso",
@@ -48,7 +84,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "fortitude_urso.gif"
+		"imagem": "fortitude_urso.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 30,
+		"bonus_fortitude_frio": 30,
+		"bonus_fortitude_veneno": 30,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Reflexos de Pantera",
@@ -58,7 +103,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "reflexo_pantera.gif"
+		"imagem": "reflexo_pantera.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 30,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Vontade da Águia",
@@ -68,7 +122,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "vontade_aguia.gif"
+		"imagem": "vontade_aguia.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 30,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Nômade do Deserto",
@@ -78,7 +141,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "nomade_deserto.gif"
+		"imagem": "nomade_deserto.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 60,
+		"bonus_fortitude_frio": -30,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Sabe-Tudo",
@@ -88,7 +160,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "sabe_tudo.gif"
+		"imagem": "sabe_tudo.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Natureza Arcana",
@@ -98,7 +179,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "Elfo", "Drow" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "natureza_arcana.gif"
+		"imagem": "natureza_arcana.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Sorrateiro",
@@ -108,7 +198,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "Polski" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "sorrateiro.gif"
+		"imagem": "sorrateiro.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Cavar Buracos",
@@ -118,7 +217,16 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "Anão" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "cavar_buracos.gif"
+		"imagem": "cavar_buracos.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Robusto",
@@ -128,17 +236,35 @@
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "Orc" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "robusto.gif"
+		"imagem": "robusto.gif",
+		"bonus_str": 25,
+		"bonus_int": -5,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Adaptável",
 		"description": "Você se adapta a qualquer temperatura, seja quente ou fria.",
-		"vantagem": [ "Bônus +60 para resistir a danos climáticos" ],
+		"vantagem": [ "Bônus +30 para resistir calor e frio" ],
 		"desvantagem": [ "" ],
 		"exclusividade_cultural": [ "" ],
 		"exclusividade_racial": [ "Humano" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "adaptavel.gif"
+		"imagem": "adaptavel.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 30,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 30,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Oito Olhos",
@@ -148,7 +274,16 @@
 		"exclusividade_cultural": [ "Har’oloth" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "oito_olhos.gif"
+		"imagem": "oito_olhos.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Força da Legião",
@@ -158,7 +293,16 @@
 		"exclusividade_cultural": [ "Aiglanos" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "forca_legiao.gif"
+		"imagem": "forca_legiao.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Cavalaria de Escaramuça",
@@ -168,7 +312,16 @@
 		"exclusividade_cultural": [ "Povos do Leste", "Björske" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "cavalaria_escaramuca.gif"
+		"imagem": "cavalaria_escaramuca.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Conexão com Alora",
@@ -178,7 +331,16 @@
 		"exclusividade_cultural": [ "Alüriel" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "conexao_alora.gif"
+		"imagem": "conexao_alora.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 10,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Defensor Anão",
@@ -188,7 +350,16 @@
 		"exclusividade_cultural": [ "Badûran" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "defensor_anao.gif"
+		"imagem": "defensor_anao.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Desapercebido",
@@ -198,7 +369,16 @@
 		"exclusividade_cultural": [ "Polkinea" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "desapercebido.gif"
+		"imagem": "desapercebido.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 0,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	},
 	{
 		"name": "Cria do Deserto",
@@ -208,7 +388,16 @@
 		"exclusividade_cultural": [ "Gulthrak" ],
 		"exclusividade_racial": [ "" ],
 		"exclusividade_caminho": [ "" ],
-		"imagem": "cria_deserto.gif"
+		"imagem": "cria_deserto.gif",
+		"bonus_str": 0,
+		"bonus_int": 0,
+		"bonus_dex": 0,
+		"bonus_mana": 0,
+		"bonus_fortitude_calor": 90,
+		"bonus_fortitude_frio": 0,
+		"bonus_fortitude_veneno": 0,
+		"bonus_reflexos": 0,
+		"bonus_vontade": 0
 	}
 	]
 }

@@ -91,15 +91,6 @@
 		"imagem": "pes_leves.png"
 	},
 	{
-		"name": "Templo da Mente",
-		"description": "Templo da Mente é um passado que descreve alguém que dedicou sua vida ao estudo e compreensão das artes mágicas. Este personagem desenvolveu um conhecimento profundo sobre teorias, histórias e fenômenos mágicos, tornando-se um especialista em identificar e entender a magia.",
-		"vantagem": "Reduz o custo de Magic Lore para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
-		"skill": "Magic Lore",
-		"skill_custo": "1",
-		"exclusividade": [ "Alüriel" ],
-		"imagem": "templo_mente.png"
-	},
-	{
 		"name": "Escaramuçador",
 		"description": "Escaramuçador é um passado que descreve alguém treinado em combate à distância. Este personagem desenvolveu habilidades excepcionais em usar armas de longo alcance, como arcos e bestas, tornando-se eficaz em atacar inimigos de longe.",
 		"vantagem": "Reduz o custo de Ranged para 1, permitindo que o personagem execute essas tarefas com maior facilidade e menos recursos.",
