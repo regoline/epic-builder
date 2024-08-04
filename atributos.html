@@ -16,36 +16,39 @@
             </div>
 		</div>
 	</div>
-    <div class="container-fluid">
+	<div class="container-fluid">
         <div class="row">
-			<div class="col-md-3 col-12">
-				<br>
-				<h4><b>Cultura:</b> <span id="selected-origin" color="black"></span></h4>
-				<h4><b>Raça:</b> <span id="selected-race" color="black"></span></h4></b>
-				<h4><b>Classe:</b> <span id="selected-classe" style="color: black;"></span></h4>
-				<h4><b>Passado:</b> <span id="selected-passado" style="color: black;"></span></h4>
-				<h4><b>Característica:</b> <span id="selected-caracteristica" style="color: black;"></span></h4>
-				<h4><b><span id="selected-caminho"></span></h4></b>
-				<b>Pilha de Heroismo:</b> <span id="save-pilha" align="justify"></span><br>
-				<b>Fortitude:</b> <span id="save-fortitude" align="justify"></span><br>
-				<b>Reflexo:</b> <span id="save-reflexo" align="justify"></span><br>
-				<b>Vontade:</b> <span id="save-vontade" align="justify"></span><br>
-				<br>
-				<button id="voltar-button" class="btn btn-danger">Voltar</button>
-				<button id="comecar-button" class="btn btn-primary" style="background-color: black; border-color: black; color: white;">Começar do 0</button> 
-				<button id="share-button" class="btn btn-primary" style="background-color: black; border-color: black; color: white;">
-					<i class="fa-solid fa-share-nodes"></i>
-				</button>
-				<br><br>
-			
-			</div>	
-			<div class="col-md-2 col-12">
-				<br>
-				<div id="saved-pericias-container"></div>
-			</div>
-			<div class="col-md-2 col-12">
-			<br>
+            <div class="col-md-2 col-12">
+			<br><br>
 				<h4>Atributos</h4>
+				<span class="attribute-label">Força (STR):</span>
+				<div class="input-group">
+					<button id="btn-str-decrement" class="btn btn-secondary" type="button">-</button>
+					<input id="box-str" class="attribute-input" type="number" value="40" step="5" min="40" max="100" readonly>
+					<button id="btn-str-increment" class="btn btn-secondary" type="button">+</button>
+				</div><br>
+				
+				<span class="attribute-label">Destreza (DEX):</span>
+				<div class="input-group">
+					<button id="btn-dex-decrement" class="btn btn-secondary" type="button">-</button>
+					<input id="box-dex" class="attribute-input" type="number" value="40" step="5" min="40" max="100" readonly>
+					<button id="btn-dex-increment" class="btn btn-secondary" type="button">+</button>
+				</div><br>
+				
+				<span class="attribute-label">Inteligência (INT):</span>
+				<div class="input-group">
+					<button id="btn-int-decrement" class="btn btn-secondary" type="button">-</button>
+					<input id="box-int" class="attribute-input" type="number" value="40" step="5" min="40" max="100" readonly>
+					<button id="btn-int-increment" class="btn btn-secondary" type="button">+</button>
+				</div><br>
+				
+				<span class="attribute-label">Pontos restantes:</span><br>
+				<span id="label-points" class="non-editable-box">80</span>
+			</div>
+			
+			<div class="col-md-2 col-12">
+			<br><br>
+				<h4>Resultado</h4>
 				
 				<span class="attribute-label"><i class="fa-solid fa-hand-fist" style="color: #7e5026;"></i> Força (STR):</span> <span id="label-str" class="attribute-input" type="number"></span><br>
 				<span class="attribute-label"><i class="fa-solid fa-person-running"  style="color: green"></i> Destreza (DEX):</span> <span id="label-dex" class="attribute-input" type="number"></span><br>
@@ -61,44 +64,54 @@
 				<span class="attribute-label"><i class="fa-solid fa-bolt" style="color: #FFD43B;"></i> Reflexos:</span> <span id="label-reflexos" class="attribute-input" type="number"></span><br>
 				<span class="attribute-label"><i class="fa-solid fa-droplet" style="color: #0784e4;"></i> Vontade:</span> <span id="label-vontade" class="attribute-input" type="number"></span><br>
 				
+				
+				
 			</div>
-            <div class="col-md-5 col-12 image-container">
-			<br>
-                <img src="img/racas/" class="img-fluid" id="raceImage" style="overflow: hidden; max-width: 100%; max-height: 100%; ">
-            </div>
-        </div>
-		<div class = "row">
-			<div class="col-12" style="background-color: #373A40;">
-				<h1><font color="white"><center>Habilidades da Classe</center></font></h1>
+			
+			
+			<div class="col-md-4 col-12">
+			<br><br>
+				<h4>Bônus</h4>
+				<b>Raça: </b></span><span id="selected-race" class="attribute-label"></span><br><br>
+				<b>Vantagens Raciais:</b>
+                <p id="race-vantagem1" style="text-align: justify;"></p>
+                <p id="race-vantagem2" style="text-align: justify;"></p>
+				<b>Característica: </b><span id="caracteristica-name" style="text-align: justify;"></span><br><br>
+				<b>Vantagem: </b><span id="carac-vantagem" style="text-align: justify;"></span><br>
+				<b>Desvantagem: </b><span id="carac-desvantagem" style="text-align: justify;"></span>
+			</div>
+			
+			<div class="col-md-2 col-12">
+				<img src="img/atr.png" class="img-fluid" style="overflow: hidden; max-width: 100%; max-height: 100%;" />	
+			</div>
+							
+			<div class="col-md-2 col-12" style="background-color: #ff7f00;">
+				<h1><font color="white">Resumo</font></h1>
+				<font color="white"><br><b>Você selecionou:</b><br><br> 
+				<b>Cultura:</b> <span id="selected-origin" color="white"></span><br>
+				<b>Raça:</b> <span id="selected-race-resumo" color="white"></span><br>
+				<b><span id="selected-caminho"></span></b><br>
+				
+				<b>Pilha de Heroismo:</b> <span id="save-pilha" align="justify"></span><br>
+				<b>Classe:</b> <span id="selected-classe" style="color: white;"></span><br>
+				<b>Passado:</b> <span id="selected-passado" style="color: white;"></span><br>
+				<b>Característica:</b> <span id="selected-caracteristica" style="color: white;"></span><br><br>
+				<b>Atributos:</b><br>
+				<b>Força:</b> <span id="selected-str" style="color: white;"></span><br>
+				<b>Destreza:</b> <span id="selected-dex" style="color: white;"></span><br>
+				<b>Inteligência:</b> <span id="selected-int" style="color: white;"></span><br>
+				
+				<br>
+				<button onclick="goBack()" class="btn btn-danger">Voltar</button>
+				<button onclick="saveSelection()" class="btn btn-primary" style="background-color: black; border-color: black; color: white;">Próximo</button></font>
+				<br>
+				<br>
 			</div>
 		</div>
-		<div class = "row">
-			<div class="col-2" style="background-color: lightgray;"><b><center>Nome</center></b></div>
-			<div class="col-1" style="background-color: lightgray;"><b><center>Level</center></b></div>
-			<div class="col-1" style="background-color: lightgray;"><b><center>Tipo</center></b></div>
-			<div class="col-1" style="background-color: lightgray;"><b><center>Custo</center></b></div>
-			<div class="col-1" style="background-color: lightgray;"><b><center>Cooldown</center></b></div>
-			<div class="col-6" style="background-color: lightgray;"><b><center>Descrição</center></b></div>
-			<div class="habilidade-row" id="habilidades-classe-row"></div>
-		</div>
-		
-		<div class = "row">
-			<div class="col-12" style="background-color: #373A40;">
-				<h1><font color="white"><center>Habilidades do Caminho</center></font></h1>
-			</div>
-		</div>
-		<div class = "row">
-			<div class="col-2" style="background-color: lightgray;"><b><center>Nome</center></b></div>
-			<div class="col-1" style="background-color: lightgray;"><b><center>Level</center></b></div>
-			<div class="col-1" style="background-color: lightgray;"><b><center>Tipo</center></b></div>
-			<div class="col-1" style="background-color: lightgray;"><b><center>Custo</center></b></div>
-			<div class="col-1" style="background-color: lightgray;"><b><center>Cooldown</center></b></div>
-			<div class="col-6" style="background-color: lightgray;"><b><center>Descrição</center></b></div>
-			<div class="habilidade-row" id="habilidades-row"></div>
-		</div>
-		
-    </div>
 	
+	</div>
+
+
 	<div class="container-fluid">
         <div class="row">
             <div class="col-12" style="background-color: #373A40;"> </div>
@@ -129,8 +142,8 @@
             <div class="col-12" style="background-color: #373A40;"> </div>
         </div>
     </div>
-
-    <script src="scripts/end.js"></script>
-
+	
+	<script src="scripts/atributos.js"></script>
+	
 </body>
 </html>

@@ -4,7 +4,7 @@
 		"name": "Aiglanos",
 		"id_povo": "pv_aiglanos",
 		"description": "Os Aiglanos são um povo astuto e inclusivo, conhecido por sua capital Aquileia. Sua bandeira apresenta uma águia dourada em um fundo vermelho, simbolizando a seleção dos capazes. Eles são um povo mestiço, com variação de tom de pele, altura e tipo de cabelo. São disciplinados, valorizam a história e fazem do exercício físico um hábito.",
-		"linguas": [ "Comum", "Imperial" ],
+		"linguas": [ "Comum", "Imperialis" ],
 		"imagem": "aiglanos.png",
 		"racas": [
 			{
@@ -14,7 +14,11 @@
 				"vantagem1": "Força Bruta: +10 STR",
 				"vantagem2": "Constituição Anã: Anões são mais resistentes a magia naturalmente.",
 				"idade": "Anões perdem 1 DP a cada 45 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_anao.png"
+				"imagem": "raca_anao.png",
+				"bonus_str": 10,
+				"bonus_dex": 0,
+				"bonus_int": 0
+				
 			},
 			{
 				"name": "Drow",
@@ -23,7 +27,10 @@
 				"vantagem1": "Sobrevivência Umbreterna: +5 INT +5 DEX",
 				"vantagem2": "Toxina Natural: Sua alimentação baseada em fundos, fez com que desenvolvessem uma resistência natural a venenos",
 				"idade": "Drows perdem 1 DP a cada 60 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_drow.png"
+				"imagem": "raca_drow.png",
+				"bonus_str": 0,
+				"bonus_dex": 5,
+				"bonus_int": 5
 			},
 			{
 				"name": "Elfo",
@@ -32,7 +39,10 @@
 				"vantagem1": "Sabedoria de Alora: +10 INT",
 				"vantagem2": "Aliado da Natureza: Não é atacado por animais selvagens",
 				"idade": "Elfos perdem 1 DP a cada 60 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_elfo.png"
+				"imagem": "raca_elfo.png",
+				"bonus_str": 0,
+				"bonus_dex": 0,
+				"bonus_int": 10
 			},
 			{
 				"name": "Humano",
@@ -41,7 +51,10 @@
 				"vantagem1": "Versatilidade: +2 Pontos de Perícias",
 				"vantagem2": "Insistência Humana: Quando estão com pouco HP (bloodied) rola as resistências com vantagem.",
 				"idade": "Humanos perdem 1 DP a cada 30 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_humano.png"
+				"imagem": "raca_humano.png",
+				"bonus_str": 0,
+				"bonus_dex": 0,
+				"bonus_int": 0
 			},
 			{
 				"name": "Orc",
@@ -50,7 +63,10 @@
 				"vantagem1": "Sabedoria Ancestral: +5 INT +5 STR",
 				"vantagem2": "Resistência Implacáve: Orcs são um povo forte, sempre que um golpe te deixar com 0 de hp, você fica com 1",
 				"idade": "Orcs perdem 1 DP a cada 30 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_orc.png"
+				"imagem": "raca_orc.png",
+				"bonus_str": 5,
+				"bonus_dex": 0,
+				"bonus_int": 5
 			},
 			{
 				"name": "Polski",
@@ -59,7 +75,10 @@
 				"vantagem1": "Agilidade Natural: +10 DEX",
 				"vantagem2": "Sortudos: Sempre rolam novamente ao rolar 1 no dado",
 				"idade": "Polskis perdem 1 DP a cada 45 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_polski.png"
+				"imagem": "raca_polski.png",
+				"bonus_str": 0,
+				"bonus_dex": 10,
+				"bonus_int": 0
 			}
 		]
 	},
@@ -76,7 +95,10 @@
 				"vantagem1": "Força Bruta: +10 STR",
 				"vantagem2": "Constituição Anã: Anões são mais resistentes a magia naturalmente.",
 				"idade": "Anões perdem 1 DP a cada 45 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_anao.png"
+				"imagem": "raca_anao.png",
+				"bonus_str": 10,
+				"bonus_dex": 0,
+				"bonus_int": 0
 			},
 			{
 				"name": "Drow",
@@ -85,7 +107,10 @@
 				"vantagem1": "Sobrevivência Umbreterna: +5 INT +5 DEX",
 				"vantagem2": "Toxina Natural: Sua alimentação baseada em fundos, fez com que desenvolvessem uma resistência natural a venenos",
 				"idade": "Drows perdem 1 DP a cada 60 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_drow.png"
+				"imagem": "raca_drow.png",
+				"bonus_str": 0,
+				"bonus_dex": 5,
+				"bonus_int": 5
 			},
 			{
 				"name": "Elfo",
@@ -94,7 +119,10 @@
 				"vantagem1": "Sabedoria de Alora: +10 INT",
 				"vantagem2": "Aliado da Natureza: Não é atacado por animais selvagens",
 				"idade": "Elfos perdem 1 DP a cada 60 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_elfo.png"
+				"imagem": "raca_elfo.png",
+				"bonus_str": 0,
+				"bonus_dex": 0,
+				"bonus_int": 10
 			},
 			{
 				"name": "Humano",
@@ -103,7 +131,10 @@
 				"vantagem1": "Versatilidade: +2 Pontos de Perícias",
 				"vantagem2": "Insistência Humana: Quando estão com pouco HP (bloodied) rola as resistências com vantagem.",
 				"idade": "Humanos perdem 1 DP a cada 30 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_humano.png"
+				"imagem": "raca_humano.png",
+				"bonus_str": 0,
+				"bonus_dex": 0,
+				"bonus_int": 0
 			},
 			{
 				"name": "Orc",
@@ -112,7 +143,10 @@
 				"vantagem1": "Inteligência Brutal: +5 INT +5 STR",
 				"vantagem2": "Resistência Implacáve: Orcs são um povo forte, sempre que um golpe te deixar com 0 de hp, você fica com 1",
 				"idade": "Orcs perdem 1 DP a cada 30 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_orc.png"
+				"imagem": "raca_orc.png",
+				"bonus_str": 5,
+				"bonus_dex": 0,
+				"bonus_int": 5
 			},
 			{
 				"name": "Polski",
@@ -121,7 +155,10 @@
 				"vantagem1": "Agilidade Natural: +10 DEX",
 				"vantagem2": "Sortudos: Sempre rolam novamente ao rolar 1 no dado",
 				"idade": "Polskis perdem 1 DP a cada 45 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_polski.png"
+				"imagem": "raca_polski.png",
+				"bonus_str": 0,
+				"bonus_dex": 10,
+				"bonus_int": 0
 			}
 		]
 	},
@@ -129,7 +166,7 @@
 		"name": "Har’oloth",
 		"description": "Os Drows são uma raça de elfos negros com pele escura e olhos variados, mas com íris claras, muitas vezes brilhantes na escuridão. São de estatura média, com as fêmeas geralmente mais baixas do que os machos. Seu estilo de combate privilegia emboscadas e ataques sorrateiros, evitando confrontos diretos.",
 		"imagem": "drows.png",
-		"linguas": [ "Comum", "Drowic" ],
+		"linguas": [ "Comum", "Idrith’har" ],
 		"racas": [
 			{
 				"name": "Drow",
@@ -138,7 +175,10 @@
 				"vantagem1": "Sobrevivência Umbreterna: +5 INT +5 DEX",
 				"vantagem2": "Toxina Natural: Sua alimentação baseada em fundos, fez com que desenvolvessem uma resistência natural a venenos",
 				"idade": "Drows perdem 1 DP a cada 60 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_drow.png"
+				"imagem": "raca_drow.png",
+				"bonus_str": 0,
+				"bonus_dex": 5,
+				"bonus_int": 5
 			}
 		]
 	},
@@ -146,7 +186,7 @@
 		"name": "Björske",
 		"description": "Os Björske são um povo tradicional do norte do continente de Eora, conhecidos por sua pele alva e cabelos que variam do preto ao loiro e ruivo. São orgulhosos, valentes e generosos, transmitindo suas tradições oralmente, reunindo-se em torno de fogueiras para cultuar seus deuses com danças, carne de caça e hidromel.",
 		"imagem": "bjorske.png",
-		"linguas": [ "Comum", "Ahruwën" ],
+		"linguas": [ "Comum", "Björ" ],
 		"racas": [
 			{
 				"name": "Humano",
@@ -155,7 +195,10 @@
 				"vantagem1": "Versatilidade: +2 Pontos de Perícias",
 				"vantagem2": "Insistência Humana: Quando estão com pouco HP (bloodied) rola as resistências com vantagem.",
 				"idade": "Humanos perdem 1 DP a cada 30 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_humano.png"
+				"imagem": "raca_humano.png",
+				"bonus_str": 0,
+				"bonus_dex": 0,
+				"bonus_int": 0
 			}
 		]
 	},
@@ -163,7 +206,7 @@
 		"name": "Alüriel",
 		"description": "Os elfos são uma raça antiga e majestosa, abençoados por Alora Larethian, a Luz Eterna. Com vida longa, chegando até 300 anos e ocasionalmente ultrapassando 700 anos, os elfos possuem uma perspectiva única e contemplativa sobre a vida e o mundo ao seu redor. Eles são esbeltos e ágeis, com pele clara, cabelos e olhos predominantemente claros, refletindo sua conexão com a natureza e a magia.",
 		"imagem": "elfos.png",
-		"linguas": [ "Comum", "Drowic" ],
+		"linguas": [ "Comum", "Ahruwën" ],
 		"racas": [
 			{
 				"name": "Elfo",
@@ -172,7 +215,10 @@
 				"vantagem1": "Sabedoria de Alora: +10 INT",
 				"vantagem2": "Aliado da Natureza: Não é atacado por animais selvagens",
 				"idade": "Elfos perdem 1 DP a cada 60 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_elfo.png"
+				"imagem": "raca_elfo.png",
+				"bonus_str": 0,
+				"bonus_dex": 0,
+				"bonus_int": 10
 			}
 		]
 	},
@@ -189,7 +235,10 @@
 				"vantagem1": "Agilidade Natural: +10 DEX",
 				"vantagem2": "Sortudos: Sempre rolam novamente ao rolar 1 no dado",
 				"idade": "Polskis perdem 1 DP a cada 45 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_polski.png"
+				"imagem": "raca_polski.png",
+				"bonus_str": 0,
+				"bonus_dex": 10,
+				"bonus_int": 0
 			}
 		]
 	},
@@ -206,7 +255,10 @@
 				"vantagem1": "Força Bruta: +10 STR",
 				"vantagem2": "Constituição Anã: Anões são mais resistentes a magia naturalmente.",
 				"idade": "Anões perdem 1 DP a cada 45 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_anao.png"
+				"imagem": "raca_anao.png",
+				"bonus_str": 10,
+				"bonus_dex": 0,
+				"bonus_int": 0
 			}
 		]
 	},
@@ -214,7 +266,7 @@
 		"name": "Gulthrak",
 		"description": "Os Orcs são uma raça de humanoides guerreiros, mais altos e fortes que os humanos, com pele calejada variando do vermelho ao verde. Sua história remonta ao Deserto da Perdição, onde enfrentaram desafios extremos para sobreviver, incluindo batalhas contra criaturas perigosas chamadas Aklats. Seu modo de vida nômade foi marcado por um culto à força e à sobrevivência.",
 		"imagem": "orcs.png",
-		"linguas": [ "Comum", "Orquês" ],
+		"linguas": [ "Comum", "Grumnak" ],
 		"racas": [
 			{
 				"name": "Orc",
@@ -223,7 +275,10 @@
 				"vantagem1": "Inteligência Brutal: +5 INT +5 STR",
 				"vantagem2": "Resistência Implacáve: Orcs são um povo forte, sempre que um golpe te deixar com 0 de hp, você fica com 1",
 				"idade": "Orcs perdem 1 DP a cada 30 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
-				"imagem": "raca_orc.png"
+				"imagem": "raca_orc.png",
+				"bonus_str": 5,
+				"bonus_dex": 0,
+				"bonus_int": 5
 			}
 		]
 	}

@@ -6,6 +6,7 @@ fetch("../json/povos.json")
 		const descriptionContainer = document.getElementById("description-container"); // Seleciona a descrição
 		const originImage = document.getElementById("origin-image"); // Seleciona a imagem
 		const racesContainer = document.getElementById("races-container"); // Seleciona a raça
+		const originLinguas = document.getElementById("origin-linguas");
 		// Cria os botões com base nos dados do arquivo JSON
 		data.povos.forEach((origin, index) => {
 			const radioInput = document.createElement("input");
@@ -27,6 +28,7 @@ fetch("../json/povos.json")
 				radioInput.checked = true;
 				// Exibe a descrição e a imagem do primeiro povo por padrão
 				descriptionContainer.textContent = origin.description;
+				originLinguas.textContent = origin.linguas;
 				originImage.src = `img/povos/${origin.imagem}`;
 				setTimeout(() => {
 					radioInput.dispatchEvent(new Event("change"));
@@ -41,6 +43,7 @@ fetch("../json/povos.json")
 				
 				// Exiba a descrição no container
 				descriptionContainer.textContent = selectedOrigin.description;
+				originLinguas.textContent = selectedOrigin.linguas;
 				// Atualize a imagem com o caminho correto
 				originImage.src = `img/povos/${selectedOrigin.imagem}`;
 				displayRaces(selectedOrigin.racas, racesContainer);

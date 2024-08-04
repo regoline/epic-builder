@@ -10,6 +10,19 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
     let saveClasse = localStorage.getItem('saveClasse');
     let savePassado = localStorage.getItem('savePassado');
 	let saveCaracteristica = localStorage.getItem('saveCaracteristica');
+	
+	let final_str = localStorage.getItem('end-str');
+	let final_dex = localStorage.getItem('end-dex');
+	let final_int = localStorage.getItem('end-int');
+	let final_vida = localStorage.getItem('end-vida');
+	let final_stamina = localStorage.getItem('end-stamina');
+	let final_mana = localStorage.getItem('end-mana');
+	let final_fort_frio = localStorage.getItem('end-fort-frio');
+	let final_fort_calor = localStorage.getItem('end-fort-calor');
+	let final_fort_veneno = localStorage.getItem('end-fort-veneno');
+	let final_reflexos = localStorage.getItem('end-reflexos');
+	let final_vontade = localStorage.getItem('end-vontade');
+
 
 	document.getElementById('raceImage').src = `img/racas/${raceImage}.png`;
     document.getElementById('selected-origin').innerText = localStorage.getItem('selectedOrigin');
@@ -22,6 +35,18 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
     document.getElementById('selected-classe').innerText = localStorage.getItem('saveClasse');
 	document.getElementById('selected-passado').innerText = localStorage.getItem('savePassado');
 	document.getElementById('selected-caracteristica').innerText = localStorage.getItem('saveCaracteristica');
+	
+	document.getElementById('label-str').innerText = final_str;
+	document.getElementById('label-dex').innerText = final_dex;
+	document.getElementById('label-int').innerText = final_int;
+	document.getElementById('label-vida').innerText = final_vida;
+	document.getElementById('label-stamina').innerText = final_stamina;
+	document.getElementById('label-mana').innerText = final_mana;
+	document.getElementById('label-fort-frio').innerText = final_fort_frio;
+	document.getElementById('label-fort-calor').innerText = final_fort_calor;
+	document.getElementById('label-fort-veneno').innerText = final_fort_veneno;
+	document.getElementById('label-reflexos').innerText = final_reflexos;
+	document.getElementById('label-vontade').innerText = final_vontade;
 	
 	fetch("../json/caminhos.json")
             .then((response) => response.json())
@@ -159,54 +184,99 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
 	
 	
         document.addEventListener('DOMContentLoaded', function() {
-            // Retrieve saved perícias from localStorage
             const periciasPrimarias = JSON.parse(localStorage.getItem('periciasPrimarias')) || [];
             const periciasSecundarias = JSON.parse(localStorage.getItem('periciasSecundarias')) || [];
             const periciasTerciarias = JSON.parse(localStorage.getItem('periciasTerciarias')) || [];
 
-            // Display saved perícias
             displaySavedPericias(periciasPrimarias, 'Perícias Primárias');
             displaySavedPericias(periciasSecundarias, 'Perícias Secundárias');
             displaySavedPericias(periciasTerciarias, 'Perícias Terciárias');
+			
+			document.getElementById('voltar-button').addEventListener('click', goBack);
+			document.getElementById('comecar-button').addEventListener('click', resetPage);
+			document.getElementById('share-button').addEventListener('click', share);
         });
 
         function displaySavedPericias(periciasArray, title) {
             const container = document.getElementById('saved-pericias-container');
 
             if (periciasArray.length > 0) {
-                // Create title for the section
                 const titleElement = document.createElement('h4');
                 titleElement.textContent = title;
                 container.appendChild(titleElement);
-
-                // Create list to hold perícias
                 const listElement = document.createElement('ul');
-                listElement.classList.add('pericias-list'); // Adding a class for styling
+                listElement.classList.add('pericias-list'); 
                 container.appendChild(listElement);
-
-                // Add perícias to the list
                 periciasArray.forEach(pericia => {
-                    // Remove the last character from pericia if it's 'x'
+
                     if (pericia.endsWith('x')) {
-                        pericia = pericia.slice(0, -1); // Remove the last character
+                        pericia = pericia.slice(0, -1);
                     }
 
                     const listItem = document.createElement('li');
-                    listItem.textContent = pericia; // Display modified pericia name
-
-                    // Optionally, add a hover effect or other styles if needed
+                    listItem.textContent = pericia;
 
                     listItem.addEventListener('click', function() {
-                        // Handle removal if needed
-                        // For example: removePericia(pericia);
                     });
 
                     listElement.appendChild(listItem);
                 });
             }
-            // If periciasArray is empty, do not display anything for this section
         }
 		
-		function goBack() {
+		function generateQueryString() {
+			const params = new URLSearchParams({
+				selectedOrigin: localStorage.getItem('selectedOrigin'),
+				selectedRace: localStorage.getItem('selectedRace'),
+				raceImage: localStorage.getItem('selectedRace'),
+				selectedCaminho: localStorage.getItem('selectedCaminho'),
+				savePilha: localStorage.getItem('savePilha'),
+				saveFortitude: localStorage.getItem('saveFortitude'),
+				saveReflexo: localStorage.getItem('saveReflexo'),
+				saveVontade: localStorage.getItem('saveVontade'),
+				caminhosPontosPericia: localStorage.getItem('caminhosPontosPericia'),
+				saveClasse: localStorage.getItem('saveClasse'),
+				savePassado: localStorage.getItem('savePassado'),
+				saveCaracteristica: localStorage.getItem('saveCaracteristica'),
+				final_str: localStorage.getItem('end-str'),
+				final_dex: localStorage.getItem('end-dex'),
+				final_int: localStorage.getItem('end-int'),
+				final_vida: localStorage.getItem('end-vida'),
+				final_stamina: localStorage.getItem('end-stamina'),
+				final_mana: localStorage.getItem('end-mana'),
+				final_fort_frio: localStorage.getItem('end-fort-frio'),
+				final_fort_calor: localStorage.getItem('end-fort-calor'),
+				final_fort_veneno: localStorage.getItem('end-fort-veneno'),
+				final_reflexos: localStorage.getItem('end-reflexos'),
+				final_vontade: localStorage.getItem('end-vontade'),
+
+				periciasPrimarias: JSON.stringify(JSON.parse(localStorage.getItem('periciasPrimarias') || '[]')),
+				periciasSecundarias: JSON.stringify(JSON.parse(localStorage.getItem('periciasSecundarias') || '[]')),
+				periciasTerciarias: JSON.stringify(JSON.parse(localStorage.getItem('periciasTerciarias') || '[]'))
+			
+			});
+
+			return params.toString();
+		}
+		const decodeTwice = (encodedStr) => decodeURIComponent(encodedStr);
+		function share() {
+			const queryString = generateQueryString();
+			const baseURL = window.location.href.split('/').slice(0, -1).join('/') + '/build.html';
+			const newURL = `${baseURL}?${queryString}`;
+			
+			alert('Link copiado!');
+			
+			navigator.clipboard.writeText(newURL).then(() => {
+				console.log('Link copiado!');
+			}).catch((err) => {
+				console.error('Falhou: ', err);
+			});
+		}
+		
+	function goBack() {
         window.history.back();
     }
+	function resetPage() {
+    localStorage.clear();
+    window.location.href = 'index.html';
+}
