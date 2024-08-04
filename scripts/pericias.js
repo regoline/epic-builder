@@ -357,8 +357,8 @@ document.getElementById('caminhos-pontos-pericia').innerText = caminhosPontosPer
     localStorage.setItem('periciasSecundarias', JSON.stringify(periciasSecundarias));
     localStorage.setItem('periciasTerciarias', JSON.stringify(periciasTerciarias));
 
-    // Navigate to end.html
-    window.location.href = 'end.html';
+    // Navigate to atributos.html
+    window.location.href = 'atributos.html';
 }
 
 	function collectPericias(dropbox, periciasArray) {
