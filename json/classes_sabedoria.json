@@ -328,7 +328,7 @@
 		"imagem": "necromante.png",
 		"id_classe": "necromante",
 		"exclusividade": [ "" ],
-		"description": "Os Necromantes são mestres da magia Kaijin, a arte corrompida descoberta no leste por um povo amargurado com seu próprio deus. Imbuídos de poder sombrio, eles ressuscitam os mortos em formas horrendas e espalham maldições devastadoras sobre seus inimigos. Com um domínio absoluto sobre a morte e a corrupção, os Necromantes manipulam as forças mais sombrias do mundo, tornando-se temidos e odiados por todos.",
+		"description": "Os Necromantes são mestres da magia Kaijin, a arte corrompida descoberta no leste por um povo amargurado com seu próprio deus. Imbuídos de poder sombrio, eles ressuscitam os mortos em formas horrendas e espalham maldições devastadoras sobre seus inimigos. Com um domínio absoluto sobre a morte e a corrupção, os Necromantes manipulam as forças mais sombrias do mundo, tornando-se temidos e odiados por todos.\n\nO necromante recebe penalidade em fortitude toda vez que atinge um novo grau de corrupção, -5 em fortitude para cada estágio até um total de -20.",
 		"habilidades": [
 		{
 			"name": "Estudo da Morte",
