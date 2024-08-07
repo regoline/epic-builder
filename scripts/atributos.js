@@ -132,15 +132,15 @@ function updateDisplay() {
 	document.getElementById('label-mana').innerText = final_mana;
 	final_stamina = final_dex;
 	document.getElementById('label-stamina').innerText = final_stamina;
-	final_fort_frio = +fortitude_frio + (final_str/4) + (carac.bonus_fortitude_frio || 0);
+	final_fort_frio = Math.floor(+fortitude_frio + (final_str/4) + (carac.bonus_fortitude_frio || 0));
 	document.getElementById('label-fort-frio').innerText = final_fort_frio;
-	final_fort_calor = +fortitude_calor + (final_str/4) + (carac.bonus_fortitude_calor || 0);
+	final_fort_calor = Math.floor(+fortitude_calor + (final_str/4) + (carac.bonus_fortitude_calor || 0));
 	document.getElementById('label-fort-calor').innerText = final_fort_calor;
-	final_fort_veneno = +fortitude_veneno + (final_str/4) + (carac.bonus_fortitude_veneno || 0);
+	final_fort_veneno = Math.floor(+fortitude_veneno + (final_str/4) + (carac.bonus_fortitude_veneno || 0));
 	document.getElementById('label-fort-veneno').innerText = final_fort_veneno;
-	final_vontade = +saveVontade_atr + (final_int/4) + (carac.bonus_vontade || 0);
+	final_vontade = Math.floor(+saveVontade_atr + (final_int/4) + (carac.bonus_vontade || 0));
 	document.getElementById('label-vontade').innerText = final_vontade;
-	final_reflexos = +saveReflexo_atr + (final_dex/4) + (carac.bonus_reflexos || 0);
+	final_reflexos = Math.floor(+saveReflexo_atr + (final_dex/4) + (carac.bonus_reflexos || 0));
 	document.getElementById('label-reflexos').innerText = final_reflexos;
 }
 
