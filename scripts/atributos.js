@@ -112,9 +112,17 @@ function updateDisplay() {
     document.getElementById('label-dex').innerText = final_dex;
     document.getElementById('label-int').innerText = final_int;
 	
-	document.getElementById('selected-str').innerText = final_str;
-    document.getElementById('selected-dex').innerText = final_dex;
-    document.getElementById('selected-int').innerText = final_int;
+	document.getElementById('lbl-str-racial').innerText = race.bonus_str;
+    document.getElementById('lbl-str-carac').innerText = carac.bonus_str;
+	
+	document.getElementById('lbl-dex-racial').innerText = race.bonus_dex;
+    document.getElementById('lbl-dex-carac').innerText = carac.bonus_dex;
+	
+	document.getElementById('lbl-int-racial').innerText = race.bonus_int;
+    document.getElementById('lbl-int-carac').innerText = carac.bonus_int;
+	
+	
+	document.getElementById('label-str').innerText = final_str;
 	
 	const pilha = Math.floor(+savePilha_atr);
 	const vida = Math.floor((atr_str + (race.bonus_str || 0) + (carac.bonus_str || 0)) + pilha);

@@ -109,12 +109,48 @@ let selectedOrigin = localStorage.getItem('selectedOrigin');
 								displayPericias(selectedCaminhos.pericias_4, pericias4Container, periciasData);
 							});
 						displayHabilidades(selectedCaminhos.habilidades);
+						
+						if (selectedCaminhos.name === "Caminho das Armas") {
+							fetch('../json/classes_armas.json')
+							.then(response => response.json())
+							.then(classesData => {
+								displayClasses(classesData.classes_armas);
+							});
+						} 
+						if (selectedCaminhos.name === "Caminho da Sabedoria") {
+							fetch('../json/classes_sabedoria.json')
+							.then(response => response.json())
+							.then(classesData => {
+								displayClasses(classesData.classes_sabedoria);
+							});
+						}
+						if (selectedCaminhos.name === "Caminho do Subterfúgio") {
+							fetch('../json/classes_subterfugio.json')
+							.then(response => response.json())
+							.then(classesData => {
+								displayClasses(classesData.classes_subterfugio);
+							});
+						}	
 					});
                 });
             })
             .catch((error) => {
                 console.error("Erro ao carregar o arquivo JSON:", error);
             });
+			function displayClasses(classes) {
+				const classesContainer = document.getElementById("classes-container");
+				classesContainer.innerHTML = ''; // Limpa conteúdo anterior
+
+				classes.forEach((classItem) => {
+					if (classItem.exclusividade.includes("") || classItem.exclusividade.includes(selectedOrigin)) {
+						const classLabel = document.createElement("label");
+						classLabel.textContent = classItem.name;
+						classesContainer.appendChild(classLabel);
+						classesContainer.appendChild(document.createElement("br"));
+					}
+				});
+			}
+			
 			function displayPericias(pericias, container, periciasData) {
 				while (container.firstChild) {
 					container.removeChild(container.firstChild);
