@@ -728,7 +728,7 @@
 		"imagem": "deslocador_sombras.png",
 		"id_classe": "deslocador_sombras",
 		"exclusividade": [ "Har’oloth" ],
-		"description": "O Deslocador das Sombras é uma classe exclusiva dos astutos e furtivos Drows. Mestres da arte da ilusão, esses conjuradores manipulam a magia Velkyn para se mover entre sombras e enganar seus inimigos. Capazes de se desvanecer na escuridão e surgir em locais inesperados, os Deslocadores das Sombras confundem e desorientam seus adversários, tornando-se verdadeiras ameaças invisíveis. Utilizando ilusões complexas, eles criam duplicatas e semeiam o caos no campo de batalha. Sua presença é sentida apenas pelo rastro de incerteza e medo que deixam para trás.\n\nIMPORTANTE: Para escolher Valsharess seu personagem deve ser do sexo masculino.",
+		"description": "O Deslocador das Sombras é uma classe exclusiva dos astutos e furtivos Drows. Mestres da arte da ilusão, esses conjuradores manipulam a magia Velkyn para se mover entre sombras e enganar seus inimigos. Capazes de se desvanecer na escuridão e surgir em locais inesperados, os Deslocadores das Sombras confundem e desorientam seus adversários, tornando-se verdadeiras ameaças invisíveis. Utilizando ilusões complexas, eles criam duplicatas e semeiam o caos no campo de batalha. Sua presença é sentida apenas pelo rastro de incerteza e medo que deixam para trás.\n\nIMPORTANTE: Para escolher Deslocador das Sombras seu personagem deve ser do sexo masculino.",
 		"habilidades": [
 		{
 			"name": "Recuperação Sombria",
