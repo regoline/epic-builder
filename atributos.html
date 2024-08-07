@@ -26,6 +26,7 @@
 					<button id="btn-str-decrement" class="btn btn-secondary" type="button">-</button>
 					<input id="box-str" class="attribute-input" type="number" value="40" step="5" min="40" max="100" readonly>
 					<button id="btn-str-increment" class="btn btn-secondary" type="button">+</button>
+					&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-pagelines" style="color: #ff7f00;"></i> <font color="#ff7f00">&nbsp; (<span id="lbl-str-racial"></span>) </font>&nbsp;&nbsp;<i class="fa-solid fa-glasses" style="color: black;"></i>&nbsp; (<span id="lbl-str-carac"></span>)
 				</div><br>
 				
 				<span class="attribute-label">Destreza (DEX):</span>
@@ -33,6 +34,7 @@
 					<button id="btn-dex-decrement" class="btn btn-secondary" type="button">-</button>
 					<input id="box-dex" class="attribute-input" type="number" value="40" step="5" min="40" max="100" readonly>
 					<button id="btn-dex-increment" class="btn btn-secondary" type="button">+</button>
+					&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-pagelines" style="color: #ff7f00;"></i> <font color="#ff7f00">&nbsp; (<span id="lbl-dex-racial"></span>) </font>&nbsp;&nbsp;<i class="fa-solid fa-glasses" style="color: black;"></i>&nbsp; (<span id="lbl-dex-carac"></span>)
 				</div><br>
 				
 				<span class="attribute-label">Inteligência (INT):</span>
@@ -40,10 +42,14 @@
 					<button id="btn-int-decrement" class="btn btn-secondary" type="button">-</button>
 					<input id="box-int" class="attribute-input" type="number" value="40" step="5" min="40" max="100" readonly>
 					<button id="btn-int-increment" class="btn btn-secondary" type="button">+</button>
+					&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-pagelines" style="color: #ff7f00;"></i> <font color="#ff7f00">&nbsp; (<span id="lbl-int-racial"></span>) </font>&nbsp;&nbsp;<i class="fa-solid fa-glasses" style="color: black;"></i>&nbsp; (<span id="lbl-int-carac"></span>)
 				</div><br>
 				
 				<span class="attribute-label">Pontos restantes:</span><br>
 				<span id="label-points" class="non-editable-box">80</span>
+				<br><br>
+				&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-pagelines" style="color: #ff7f00;"></i> <font color="#ff7f00">&nbsp; Racial </font><br>
+				&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-glasses" style="color: black;"></i>&nbsp; Característica
 			</div>
 			
 			<div class="col-md-2 col-12">
@@ -103,7 +109,7 @@
 				
 				<br>
 				<button onclick="goBack()" class="btn btn-danger">Voltar</button>
-				<button onclick="saveSelection()" class="btn btn-primary" style="background-color: black; border-color: black; color: white;">Próximo</button></font>
+				<button onclick="saveSelection()" class="btn btn-primary" style="background-color: black; border-color: black; color: white;">Finalizar</button></font>
 				<br>
 				<br>
 			</div>
