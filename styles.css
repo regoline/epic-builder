@@ -147,3 +147,6 @@ body {
 .image-container {
             text-align: right;
         }
+.form-check-label {
+    margin-left: 10px; /* Adjust the value as needed */
+}
