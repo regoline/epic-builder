@@ -5,8 +5,8 @@
 		"caminho": "Caminho da Sabedoria",
 		"imagem": "augur_morte.png",
 		"id_classe": "augur_morte",
-		"exclusividade": [ "" ],
-		"description": "Os Augures são poderosos clérigos de Aigla, responsáveis por manterem a Ordem e poder máximo sobre as outras constituições. O Augur adepto do domínio da morte, carrega consigo práticas da magia encontrada no leste: Kaijin. Eles aperfeiçoaram dessa técnica e usam o poder da morte para neutralizar ameaças para o povo.",
+		"exclusividade": [ "Aiglanos" ],
+		"description": "Os Augures são poderosos clérigos de Aigla, responsáveis por manterem a Ordem e poder máximo sobre as outras constituições. O Augur adepto do domínio da morte, carrega consigo práticas da magia encontrada no leste: Kaijin. Eles aperfeiçoaram dessa técnica e usam o poder da morte para neutralizar ameaças para o povo.\n\nIMPORTANTE: Para escolher essa classe, é preciso escolher a religião Veneratio",
 		"habilidades": [
 		{
 			"name": "Tocado por Asan",
@@ -128,7 +128,7 @@
 		"imagem": "augur_vida.png",
 		"id_classe": "augur_vida",
 		"exclusividade": [ "Aiglanos" ],
-		"description": "Os Augures são poderosos clérigos de Aigla, responsáveis por manterem a Ordem e poder máximo sobre as outras constituições. O Augur adepto do domínio da vida utiliza a magia divina caracterizada por runas sagradas para proteger e curar seus aliados.",
+		"description": "Os Augures são poderosos clérigos de Aigla, responsáveis por manterem a Ordem e poder máximo sobre as outras constituições. O Augur adepto do domínio da vida utiliza a magia divina caracterizada por runas sagradas para proteger e curar seus aliados.\n\nIMPORTANTE: Para escolher essa classe, é preciso escolher a religião Veneratio",
 		"habilidades": [
 		{
 			"name": "Dominatio Animae",
@@ -478,7 +478,7 @@
 		"imagem": "martelo_divino.png",
 		"id_classe": "martelo_divino",
 		"exclusividade": [ "Badûran" ],
-		"description": "Os clérigos anões, conhecidos como “Martelos Divinos”, são guerreiros sagrados que combinam resistência e suporte estratégico. Vestidos em armaduras robustas, brandem martelos sagrados e cultuam o Pai da Forja. Funcionam como off tanks, absorvendo ataques, e oferecem suporte vital aos tanks aliados, fortalecendo a linha de frente com bençãos divinas. Sua devoção inabalável e habilidades tácticas fazem dos Martelos Divinos a personificação da resistência e justiça divina.",
+		"description": "Os clérigos anões, conhecidos como “Martelos Divinos”, são guerreiros sagrados que combinam resistência e suporte estratégico. Vestidos em armaduras robustas, brandem martelos sagrados e cultuam o Pai da Forja. Funcionam como off tanks, absorvendo ataques, e oferecem suporte vital aos tanks aliados, fortalecendo a linha de frente com bençãos divinas. Sua devoção inabalável e habilidades tácticas fazem dos Martelos Divinos a personificação da resistência e justiça divina.\n\nIMPORTANTE: Para escolher essa classe, é preciso escolher a religião Bokk Bharaz.",
 		"habilidades": [
 		{
 			"name": "Campeão das Montanhas",
@@ -528,7 +528,7 @@
 		"imagem": "valsharess.png",
 		"id_classe": "valsharess",
 		"exclusividade": [ "Har’oloth" ],
-		"description": "Valsharess são clérigas de Idrith, a deusa dos Drows. Junto de sua fé sombria e sua percepção sobrenatural, a sacerdotisa espalha terror para aqueles que entram em seu caminho.\n\nIMPORTANTE: Para escolher Valsharess seu personagem deve ser do sexo feminino.",
+		"description": "Valsharess são clérigas de Idrith, a deusa dos Drows. Junto de sua fé sombria e sua percepção sobrenatural, a sacerdotisa espalha terror para aqueles que entram em seu caminho.\n\nIMPORTANTE: Para escolher Valsharess seu personagem deve ser do sexo feminino e escolher a religião Eluith'orth.",
 		"habilidades": [
 		{
 			"name": "Visão verdadeira",
@@ -578,7 +578,7 @@
 		"imagem": "arqueiro_arcano.png",
 		"id_classe": "arqueiro_arcano",
 		"exclusividade": [ "Alüriel" ],
-		"description": "O Arqueiro Arcano usa os poderes de Alora para imbuir seu arco com poderosas energias arcanas. Utilizando sua habilidade mágica, cria flechas elementais que rasgam o ar e destroem os inimigos com precisão devastadora. Seja manipulando chamas ardentes, eletricidade fulminante ou gelo cortante, o Arqueiro Arcano é um mestre da destruição à distância, combinando a precisão letal de um arqueiro com o poder ilimitado da magia elemental.",
+		"description": "O Arqueiro Arcano usa os poderes de Alora para imbuir seu arco com poderosas energias arcanas. Utilizando sua habilidade mágica, cria flechas elementais que rasgam o ar e destroem os inimigos com precisão devastadora. Seja manipulando chamas ardentes, eletricidade fulminante ou gelo cortante, o Arqueiro Arcano é um mestre da destruição à distância, combinando a precisão letal de um arqueiro com o poder ilimitado da magia elemental. \n\nIMPORTANTE: Para escolher essa classe, é preciso escolher a religião Lorë.",
 		"habilidades": [
 		{
 			"name": "Convergência Elemental",
