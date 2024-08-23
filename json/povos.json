@@ -3,7 +3,7 @@
 	{
 		"name": "Aiglanos",
 		"id_povo": "pv_aiglanos",
-		"description": "Os Aiglanos são um povo astuto e inclusivo, conhecido por sua capital Aquileia. Sua bandeira apresenta uma águia dourada em um fundo vermelho, simbolizando a seleção dos capazes. Eles são um povo mestiço, com variação de tom de pele, altura e tipo de cabelo. São disciplinados, valorizam a história e fazem do exercício físico um hábito.",
+		"description": "Os aiglanos são um povo astuto, carecem de preconceitos em relação aos outros povos e raças. São bastante inclusivistas, por conta dessa assunção com os forasteiros, são possivelmente o povo mais mestiço de Eora.",
 		"linguas": [ "Comum", "Imperialis" ],
 		"imagem": "aiglanos.png",
 		"racas": [
@@ -61,7 +61,7 @@
 				"id_raca": "orc",
 				"description": "Os orcs são uma raça guerreira, conhecida por sua força bruta e ferocidade em combate. Vivem em tribos nômades e têm uma cultura de conquista e sobrevivência. Apesar de sua aparência intimidadora, são leais a seus aliados e têm um forte senso de comunidade.",
 				"vantagem1": "Sabedoria Ancestral: +5 INT +5 STR",
-				"vantagem2": "Resistência Implacáve: Orcs são um povo forte, sempre que um golpe te deixar com 0 de hp, você fica com 1",
+				"vantagem2": "Resistência Implacável: Orcs são um povo forte, sempre que um golpe te deixar com 0 de hp, você fica com 1",
 				"idade": "Orcs perdem 1 DP a cada 30 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
 				"imagem": "raca_orc.png",
 				"bonus_str": 5,
@@ -84,7 +84,7 @@
 	},
 	{
 		"name": "Povos do Leste",
-		"description": "Os Povos do Leste são caracterizados por sua extensa terra, liderada pela Dinastia Huang, com uma cultura diversificada apesar da unificação sob uma única dinastia. O gentílico varia de acordo com a classe social, com destaque para os kamis, heimins e heinins. A pele clara a amarelada e olhos com palpebras puxadas são características comuns.",
+		"description": "Com a pele clara, variando do tom mais brando até uma pigmentação mais amarelada, os povos do leste possuem olhos menores que os humanos do oeste, com uma variação na elevação da palpébra, que comumente é chamada de “olhos puxados”.",
 		"imagem": "leste.png",
 		"linguas": [ "Comum", "Haiei" ],
 		"racas": [
@@ -141,7 +141,7 @@
 				"id_raca": "orc",
 				"description": "Os orcs são uma raça guerreira, conhecida por sua força bruta e ferocidade em combate. Vivem em tribos nômades e têm uma cultura de conquista e sobrevivência. Apesar de sua aparência intimidadora, são leais a seus aliados e têm um forte senso de comunidade.",
 				"vantagem1": "Inteligência Brutal: +5 INT +5 STR",
-				"vantagem2": "Resistência Implacáve: Orcs são um povo forte, sempre que um golpe te deixar com 0 de hp, você fica com 1",
+				"vantagem2": "Resistência Implacável: Orcs são um povo forte, sempre que um golpe te deixar com 0 de hp, você fica com 1",
 				"idade": "Orcs perdem 1 DP a cada 30 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
 				"imagem": "raca_orc.png",
 				"bonus_str": 5,
@@ -164,7 +164,7 @@
 	},
 	{
 		"name": "Har’oloth",
-		"description": "Os Drows são uma raça de elfos negros com pele escura e olhos variados, mas com íris claras, muitas vezes brilhantes na escuridão. São de estatura média, com as fêmeas geralmente mais baixas do que os machos. Seu estilo de combate privilegia emboscadas e ataques sorrateiros, evitando confrontos diretos.",
+		"description": "Drows tem a pele mais escura que os elfos, olhos das cores mais variadas, porém, seus íris são claros. Alguns podendo até brilhar na escuridão absoluta. Não são altos, fêmeas medem cerca de um metro e meio e machos mais altos até 1,75m.",
 		"imagem": "drows.png",
 		"linguas": [ "Comum", "Idrith’har" ],
 		"racas": [
@@ -184,7 +184,7 @@
 	},
 	{
 		"name": "Björske",
-		"description": "Os Björske são um povo tradicional do norte do continente de Eora, conhecidos por sua pele alva e cabelos que variam do preto ao loiro e ruivo. São orgulhosos, valentes e generosos, transmitindo suas tradições oralmente, reunindo-se em torno de fogueiras para cultuar seus deuses com danças, carne de caça e hidromel.",
+		"description": "Os Björske são um povo tradicional do norte  do continente de Eora. Sua pele é alva e seus cabelos variam do preto, passando pelo loiro até o ruivo. São um povo orgulhoso e obstinado, possuem um coração bem intencionado, são generosos em pensamentos e ações. São valentes sem serem cruéis, são sábios mesmo que lhes falte o estudo formal.",
 		"imagem": "bjorske.png",
 		"linguas": [ "Comum", "Björ" ],
 		"racas": [
@@ -204,7 +204,7 @@
 	},
 	{
 		"name": "Alüriel",
-		"description": "Os elfos são uma raça antiga e majestosa, abençoados por Alora Larethian, a Luz Eterna. Com vida longa, chegando até 300 anos e ocasionalmente ultrapassando 700 anos, os elfos possuem uma perspectiva única e contemplativa sobre a vida e o mundo ao seu redor. Eles são esbeltos e ágeis, com pele clara, cabelos e olhos predominantemente claros, refletindo sua conexão com a natureza e a magia.",
+		"description": "Os elfos são o povo mais antigo do continente, tão antigo que entre si são, algumas vezes, chamados de Quendi, que significa “aqueles que se comunicam por palavras”, uma vez que foram os primeiros seres a desenvolver a fala. Entre os povos, também foram os primeiros a desenvolver a música, ficando atrás apenas dos pássaros, que já cantarolavam pelo continente desde os primórdios e foram responsáveis por inspirar os elfos a desenvolver sua própria música.",
 		"imagem": "elfos.png",
 		"linguas": [ "Comum", "Ahruwën" ],
 		"racas": [
@@ -224,7 +224,7 @@
 	},
 	{
 		"name": "Polkinea",
-		"description": "Os Polski são um povo diverso e tranquilo, com uma estatura média de 90 centímetros e um corpo rechonchudo que varia de 20 a 30 quilogramas. Sua pele bronzeada pode variar de tons mais escuros a mais claros, e traços distintos podem indicar a linhagem familiar. Eles valorizam o conforto e a simplicidade em suas vestimentas e casas, mas têm orgulho de se vestirem bem.",
+		"description": "Polski são um povo extremamente diverso, com um tamanho médio de 90 centímetros, e um corpo rechonchudo que chega por volta dos 20kg - 30kg, estes possuem também uma pele bronzeada pelo sol, podendo variar de tons mais escuros para tons mais claros dependendo da profissão ou família originária, fato bastante intrigante, pois é possível distinguir qual a linhagem familiar de um Polski a partir de traços simples como tamanho dos pés, mãos ou cor dos olhos, um grande exemplo são os descendentes da família Pérvalhos, que possuem pés longos e peludos, dispensando a necessidade de uso botas, mesmo quando decidem buscar comidas sobre as frondosas montanhas do oeste. Já em questões vestuais os Polski são pouco ostensivos quanto a jóias e riquezas, tanto em suas roupas como em suas casas, mas acreditam que um polski que se preze deve se vestir finamente, porém nunca traindo seu conforto.",
 		"imagem": "polski.png",
 		"linguas": [ "Comum", "Phalk" ],
 		"racas": [
@@ -244,7 +244,7 @@
 	},
 	{
 		"name": "Badûran",
-		"description": "Os Anões são uma raça distintiva, reconhecível por suas longas barbas adornadas e estatura baixa, mas robusta. Com uma cultura profundamente enraizada na forja e na tecnologia, eles habitam regiões montanhosas e possuem uma sociedade organizada, com líderes como o 'Pai' e a 'Mãe'. Sua relação com outras raças é marcada por um misto de hospitalidade e irritabilidade, especialmente com os elfos, com os quais têm uma rivalidade histórica.",
+		"description": "Os Anãos são um povo notavelmente diferente, sendo facilmente distinguíveis em meio a uma multidão, com suas longas barbas enfeitadas com jóias e sua baixa estatura, possuindo cerca de 1,30m a 1,40m. O maior anão registrado atingiu a estatura de 1,48m. Além disso, os Anãos impressionam por possuir peso corporal semelhante ao de um humano adulto de estatura média. É por isso que, apesar da estatura diminuta, eles são portadores de grande força e vitalidade para a realização de trabalhos corporais.",
 		"imagem": "anoes.png",
 		"linguas": [ "Comum", "Aglâb" ],
 		"racas": [
@@ -264,7 +264,7 @@
 	},
 	{
 		"name": "Gulthrak",
-		"description": "Os Orcs são uma raça de humanoides guerreiros, mais altos e fortes que os humanos, com pele calejada variando do vermelho ao verde. Sua história remonta ao Deserto da Perdição, onde enfrentaram desafios extremos para sobreviver, incluindo batalhas contra criaturas perigosas chamadas Aklats. Seu modo de vida nômade foi marcado por um culto à força e à sobrevivência.",
+		"description": "Orcs são uma raça de humanóides guerreiros, um pouco mais altos e fortes que um humano, com pele calejada variando nas tonalidades entre vermelho e verde, feições rígidas e caninos inferiores avantajados.",
 		"imagem": "orcs.png",
 		"linguas": [ "Comum", "Grumnak" ],
 		"racas": [
@@ -273,7 +273,7 @@
 				"id_raca": "orc",
 				"description": "Os orcs são uma raça guerreira, conhecida por sua força bruta e ferocidade em combate. Vivem em tribos nômades e têm uma cultura de conquista e sobrevivência. Apesar de sua aparência intimidadora, são leais a seus aliados e têm um forte senso de comunidade.",
 				"vantagem1": "Inteligência Brutal: +5 INT +5 STR",
-				"vantagem2": "Resistência Implacáve: Orcs são um povo forte, sempre que um golpe te deixar com 0 de hp, você fica com 1",
+				"vantagem2": "Resistência Implacável: Orcs são um povo forte, sempre que um golpe te deixar com 0 de hp, você fica com 1",
 				"idade": "Orcs perdem 1 DP a cada 30 dias off-game. Caso cheguem em 1 DP, perdem apenas desmaiando.",
 				"imagem": "raca_orc.png",
 				"bonus_str": 5,
