@@ -130,8 +130,8 @@
 		"bonus_fortitude_calor": 0,
 		"bonus_fortitude_frio": 0,
 		"bonus_fortitude_veneno": 0,
-		"bonus_reflexos": 30,
-		"bonus_vontade": 0
+		"bonus_reflexos": 0,
+		"bonus_vontade": 30
 	},
 	{
 		"name": "Nômade do Deserto",
