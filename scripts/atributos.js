@@ -138,7 +138,7 @@ function updateDisplay() {
 	document.getElementById('label-fort-calor').innerText = final_fort_calor;
 	final_fort_veneno = Math.floor(+fortitude_veneno + (final_str/4) + (carac.bonus_fortitude_veneno || 0));
 	document.getElementById('label-fort-veneno').innerText = final_fort_veneno;
-	final_vontade = Math.floor(+saveVontade_atr + (final_int/4) + (carac.bonus_vontade || 0));
+	final_vontade = Math.floor(+saveVontade_atr + (final_int/4) + (carac.bonus_vontade || 0) + (race.bonus_vontade || 0));
 	document.getElementById('label-vontade').innerText = final_vontade;
 	final_reflexos = Math.floor(+saveReflexo_atr + (final_dex/4) + (carac.bonus_reflexos || 0));
 	document.getElementById('label-reflexos').innerText = final_reflexos;
